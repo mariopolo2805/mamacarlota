@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Babyboy
-id: babyboy
+title: Accessories
+id: accessories
 languages:
     - es
-subset: babyboy
-permalink: /:language/catalogo/bebe-nino
+subset: accessories
+permalink: /:language/catalogo/accesorios
 ---
 
-<div class="catalog babyboy">
+<div class="catalog accessories">
 
     <div class="section background-mask no-pad-bot white-text">
         <header class="container center">
@@ -25,9 +25,9 @@ permalink: /:language/catalogo/bebe-nino
         <div class="container">
             <div class="row">
                 <div class="carousel" data-indicators="true">
-                    {% for img in site.babyboy.images %}
+                    {% for img in site.accessories.images %}
                         <div class="carousel-item">
-                            <img src="{{site.babyboy.folder}}{{img.url}}" alt="img-{{img.url}}">
+                            <img src="{{site.accessories.folder}}{{img.url}}" alt="img-{{img.url}}">
                             <span>{{img.name}}</span>
                         </div>
                     {% endfor %}

@@ -169,6 +169,11 @@ table.collapse {
 // CATALOG
 
 .catalog {
+
+    .carousel .carousel-item {
+        width: 350px !important;
+    }
+
     .logo {
         width: 300px;
         height: auto;

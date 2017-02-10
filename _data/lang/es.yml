@@ -80,7 +80,47 @@ catalog:
         url: "/regalos"
         image: "/images/catalog/gifts.jpg"
 
+accessories:
+    title-tag: "Catálogo de Mamacarlota - Accesorios"
+    title: "Accesorios"
+    subtitle: "Diademas, turbantes, lazos, gomas de pelo y mucho más."
+
 babyboy:
     title-tag: "Catálogo de Mamacarlota - Bebé niño"
     title: "Bebé niño"
     subtitle: "De 0 a 3 años."
+
+babygirl:
+    title-tag: "Catálogo de Mamacarlota - Bebé niña"
+    title: "Bebé niña"
+    subtitle: "De 0 a 3 años."
+
+boy:
+    title-tag: "Catálogo de Mamacarlota - Niño"
+    title: "Niño"
+    subtitle: "De 3 a 14 años."
+
+christening:
+    title-tag: "Catálogo de Mamacarlota - Bautizo"
+    title: "Bautizo"
+    subtitle: "Conjuntos para niño y niña."
+
+communion:
+    title-tag: "Catálogo de Mamacarlota - Comunión"
+    title: "Comunión"
+    subtitle: "Trajes, vestidos, y coronas de flores."
+
+footwear:
+    title-tag: "Catálogo de Mamacarlota - Calzado"
+    title: "Calzado"
+    subtitle: "Zapatos, calcetines y medias."
+
+gifts:
+    title-tag: "Catálogo de Mamacarlota - Regalos"
+    title: "Regalos"
+    subtitle: "Cestas personalizadas."
+
+girl:
+    title-tag: "Catálogo de Mamacarlota - Niña"
+    title: "Niña"
+    subtitle: "De 3 a 14 años."
