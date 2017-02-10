@@ -256,3 +256,6 @@ girl:
       name: "Titulo9"
     - url: "girl10.jpg"
       name: "Titulo10"
+
+# Heroku
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
