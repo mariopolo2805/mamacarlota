@@ -1,0 +1,128 @@
+---
+layout: default
+title: Catalog
+id: catalog
+languages:
+    - es
+subset: catalog
+permalink: /:language/catalogo/
+---
+
+<div class="catalog">
+
+    <div class="section background-mask no-pad-bot white-text">
+        <header class="container center">
+            <br><br><br>
+            <h1 class="header">
+                {% t 'title' %}
+            </h1>
+            <h2 class="light">{% t 'subtitle' %}</h2>
+            <br><br>
+        </header>
+    </div>
+
+    <div class="container">
+        <br><br>
+        <ul class="row">
+            <li class="col s12 m6 l4">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}/{{ page.language }}{% t 'catalog.url' %}{% t 'babyboy.url' %}">
+                    <div class="card-image">
+                        <img src="{% t 'babyboy.image' %}" alt="baby_image">
+                    </div>
+                    <div class="card-content flex-row">
+                        <span class="card-title grey-text text-darken-4">{% t 'babyboy.title' %}</span>
+                    </div>
+                </a>
+            </li>
+            <li class="col s12 m6 l4">
+                <a class="card small hoverable waves-effect waves-light" href="{% t 'babygirl.url' %}">
+                    <div class="card-image">
+                        <img src="{% t 'babygirl.image' %}" alt="baby_image">
+                    </div>
+                    <div class="card-content flex-row">
+                        <span class="card-title grey-text text-darken-4">{% t 'babygirl.title' %}</span>
+                    </div>
+                </a>
+            </li>
+            <li class="col s12 m6 l4">
+                <a class="card small hoverable waves-effect waves-light" href="{% t 'christening.url' %}">
+                    <div class="card-image">
+                        <img src="{% t 'christening.image' %}" alt="baby_image">
+                    </div>
+                    <div class="card-content flex-row">
+                        <span class="card-title grey-text text-darken-4">{% t 'christening.title' %}</span>
+                    </div>
+                </a>
+            </li>
+            <li class="col s12 m6 l4">
+                <a class="card small hoverable waves-effect waves-light" href="{% t 'boy.url' %}">
+                    <div class="card-image">
+                        <img src="{% t 'boy.image' %}" alt="baby_image">
+                    </div>
+                    <div class="card-content flex-row">
+                        <span class="card-title grey-text text-darken-4">{% t 'boy.title' %}</span>
+                    </div>
+                </a>
+            </li>
+            <li class="col s12 m6 l4">
+                <a class="card small hoverable waves-effect waves-light" href="{% t 'girl.url' %}">
+                    <div class="card-image">
+                        <img src="{% t 'girl.image' %}" alt="baby_image">
+                    </div>
+                    <div class="card-content flex-row">
+                        <span class="card-title grey-text text-darken-4">{% t 'girl.title' %}</span>
+                    </div>
+                </a>
+            </li>
+            <li class="col s12 m6 l4">
+                <a class="card small hoverable waves-effect waves-light" href="{% t 'communion.url' %}">
+                    <div class="card-image">
+                        <img src="{% t 'communion.image' %}" alt="baby_image">
+                    </div>
+                    <div class="card-content flex-row">
+                        <span class="card-title grey-text text-darken-4">{% t 'communion.title' %}</span>
+                    </div>
+                </a>
+            </li>
+            <li class="col s12 m6 l4">
+                <a class="card small hoverable waves-effect waves-light" href="{% t 'accessories.url' %}">
+                    <div class="card-image">
+                        <img src="{% t 'accessories.image' %}" alt="baby_image">
+                    </div>
+                    <div class="card-content flex-row">
+                        <span class="card-title grey-text text-darken-4">{% t 'accessories.title' %}</span>
+                    </div>
+                </a>
+            </li>
+            <li class="col s12 m6 l4">
+                <a class="card small hoverable waves-effect waves-light" href="{% t 'footwear.url' %}">
+                    <div class="card-image">
+                        <img src="{% t 'footwear.image' %}" alt="baby_image">
+                    </div>
+                    <div class="card-content flex-row">
+                        <span class="card-title grey-text text-darken-4">{% t 'footwear.title' %}</span>
+                    </div>
+                </a>
+            </li>
+            <li class="col s12 m6 l4">
+                <a class="card small hoverable waves-effect waves-light" href="{% t 'gifts.url' %}">
+                    <div class="card-image">
+                        <img src="{% t 'gifts.image' %}" alt="baby_image">
+                    </div>
+                    <div class="card-content flex-row">
+                        <span class="card-title grey-text text-darken-4">{% t 'gifts.title' %}</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="flex-row">
+        <img class="logo" src="/images/logo.png" alt="Mamacarlota logo" />
+    </div>
+    <br>
+    <div class="section resume">
+        <div class="container">
+        </div>
+    </div>
+
+</div>

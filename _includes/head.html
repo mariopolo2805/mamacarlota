@@ -1,0 +1,41 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="keywords" content="{% t 'site.keywords' %}">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+<!-- If it's the main page, show only the site title -->
+{% if !page.id == 'home' or !page.id == 'root' %}
+    <title>{% t 'site.title' %}</title>
+    <!-- If it's other page, show the page title before the site title -->
+{% else %}
+    <!-- If the page is a post and it has titleTage use it to compose the page title -->
+    <!-- Instead use the page title -->
+    <title>
+        {% if page.layout == 'post' and page.titleTag %}
+            {{page.titleTag}}
+        {% else %}
+            {% if page.id | downcase %}
+
+                {% assign pageId = page.id %}
+                {% assign titleField = 'title-tag' %}
+                {% assign translationKey = pageId | append : '.' | append : titleField %}
+                {% t translationKey %}
+            {% endif %}
+
+        {% endif %}
+        -
+        {% t 'site.title-tag' %}</title>
+{% endif %}
+<meta name="description" content="{% t 'site.description' %}">
+<link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+<!-- icons -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+{% css main %}
+
+<!-- Cookie Consent -->
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.1/cookieconsent.min.css"/>

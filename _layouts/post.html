@@ -1,0 +1,27 @@
+---
+layout: default
+---
+    <div class="post">
+
+    <div class="section grey lighten-3 no-pad-bot background" style="background-image: url({{ page.img }}) ">
+        <div class="background-mask">
+            <div class="container post-header white-text">
+                <br><br>
+                <h1 class="center">
+                    {{ page.title }}
+                </h1>
+                <div class="row center">
+                    <h5 class="col s12 thin">{{ page.date | date: "%b %-d, %Y" }}</h5>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+    <article class="section">
+        <br>
+
+        <div class="container post-content grey-text text-darken-2">
+            {{ content }}
+        </div>
+    </article>
+</div>

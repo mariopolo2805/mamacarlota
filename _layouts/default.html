@@ -1,0 +1,21 @@
+---
+layout: skeleton
+---
+
+<!-- header -->
+{% include site-header.html %}
+
+<!-- body -->
+<main>
+	{{ content }}
+</main>
+
+<!-- footer -->
+{% if page.layout == 'post'%}
+    {% include post-footer.html %}
+{% endif %}
+{% include site-footer.html %}
+
+
+
+

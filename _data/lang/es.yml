@@ -1,0 +1,86 @@
+site:
+    title: "Mamacarlota"
+    title-tag: "Mamacarlota"
+    description: "Website de Mamacarlota"
+    keywords: "mamacarlota"
+terms:
+    title: "Aviso Legal"
+    subtitle: "Datos identificativos"
+cookies:
+    title: Política de cookies
+    title-tag: "Política de cookies"
+
+home:
+    title: "Mamacarlota"
+    homeTitle: "El Almacén de Mamá"
+    description1: "Tienda de bebés y niños de O a 16. Especialistas en ceremonia, comunión y bautizo."
+    description2: "También confección a media. Complementos y calzado."
+    phone: "Teléfono: 91 042 12 45"
+    title_tab: "INICIO"
+    url: "/"
+
+    presentation: "Ropa de ceremonia para niños en Madrid y confección de prendas de gran calidad"
+    p1: "En Mamacarlota (El Almacén de Mamá) todas las prendas son fabricadas en España con el máximo control y cuidado; cumpliendo nuestro objetivo y asegurando tanto calidad como acabados exquisitos."
+    p2: "Diseñamos desde vestidos para ceremonia o eventos, hasta prendas básicas e informales, siempre manteniendo nuestro estilo propio y cuidando hasta el mínimo detalle."
+    p3: "Te invitamos a que entres y veas toda la moda infantil que hemos seleccionado para ti, porque si buscas algo diferente, aquí lo vas a encontrar."
+
+    mapsTitle: "¿Dónde estamos ubicados?"
+    address: "Calle de Narváez 13, 28009 Madrid"
+
+catalog:
+    title-tag: "Catálogo de Mamacarlota"
+    title: "Catálogo de Mamacarlota"
+    subtitle: "En nuestro catálogo encontrará la más amplia variedad."
+
+    title_tab: "CATÁLOGO"
+    url: "/catalogo"
+
+    babyboy:
+        title: "Bebé niño"
+        url: "/bebe-nino"
+        image: "/images/catalog/babyboy.jpg"
+
+    babygirl:
+        title: "Bebé niña"
+        url: "/bebe-nina"
+        image: "/images/catalog/babygirl.jpg"
+
+    christening:
+        title: "Bautizo"
+        url: "/bautizo"
+        image: "/images/catalog/christening.jpg"
+
+    boy:
+        title: "Niño"
+        url: "/nino"
+        image: "/images/catalog/boy.jpg"
+
+    girl:
+        title: "Niña"
+        url: "/nina"
+        image: "/images/catalog/girl.jpg"
+
+    communion:
+        title: "Comunión"
+        url: "/comunion"
+        image: "/images/catalog/communion.jpg"
+
+    accessories:
+        title: "Accesorios"
+        url: "/accesorios"
+        image: "/images/catalog/accessories.jpg"
+
+    footwear:
+        title: "Calzado"
+        url: "/calzado"
+        image: "/images/catalog/footwear.jpg"
+
+    gifts:
+        title: "Regalos"
+        url: "/regalos"
+        image: "/images/catalog/gifts.jpg"
+
+babyboy:
+    title-tag: "Catálogo de Mamacarlota - Bebé niño"
+    title: "Bebé niño"
+    subtitle: "De 0 a 3 años."

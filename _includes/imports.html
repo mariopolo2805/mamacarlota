@@ -1,0 +1,48 @@
+<!-- jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.4.4/showdown.min.js" charset="utf-8"></script>
+
+{% js footer-init %}
+<script type="text/javascript">
+    footer.loadTerms('/_i18n/{{page.language}}/terms.md')
+</script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+{% js language-redirect %}
+{% js materialize-init %}
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.1/cookieconsent.min.js"></script>
+{% js cookieConsent%}
+<script type="text/javascript">
+    cookieConsent.initCookieConsent("{{site.baseurl}}/{{ page.language }}/cookies");
+</script>
+
+<!-- Maps -->
+<script>
+  function initMap() {
+    var shop = {lat: 40.4228613, lng: -3.6758901};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 16,
+      center: shop
+    });
+    var marker = new google.maps.Marker({
+      position: shop,
+      map: map,
+      title: "Mamacarlota"
+    });
+  }
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArBBEqgoRS4NIKBoFzXqM775z5Fw5Znu8&callback=initMap">
+</script>
+
+<!-- Facebook -->
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>

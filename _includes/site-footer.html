@@ -1,0 +1,31 @@
+<footer class="blue-grey darken-4">
+    <div class="container">
+        <br>
+        <div class="row flex-row">
+            <a class="flex" href="https://www.facebook.com/elalmacendemamacarlota/">
+                <img src="/images/facebook.png" alt="Facebook"/>
+            </a>
+            <div class="col l3 m3 s12 left">
+                <div class="fb-like" data-href="https://www.facebook.com/elalmacendemamacarlota/" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+            </div>
+            <div class="col l9 m9 s12 right center-on-small-only">
+                <p class="white-text right">
+                    <a href="#terms" class="white-text modal-trigger waves-effect waves-light">{% t 'terms.title' %}</a>
+                    <span class="hide-on-small-only">&nbsp;-&nbsp;</span>
+                    <a class="white-text" href="{{site.baseurl}}/{{ page.language }}/cookies" target="_blank">Política de cookies</a>
+                </p>
+
+                <!-- Modal Structure -->
+                <div id="terms" class="modal">
+                    <div class="modal-content text-justify">
+                        <h5 class="teal-text">{% t 'terms.title' %}</h5>
+                        <h6>{% t 'terms.subtitle' %}</h6>
+                        <div id="include-terms">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+</footer>

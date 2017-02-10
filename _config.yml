@@ -1,0 +1,49 @@
+gems:
+    - jekyll-language-plugin
+    - jekyll-assets
+    - jekyll-sitemap
+
+language_data: data.lang.%%
+language_includes_dir: _i18n
+
+languages: ['es']
+
+exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'css', 'js']
+
+include: ['_i18n']
+
+sass:
+  sass_dir: css/_scss
+
+assets:
+  compress:
+    css: default
+    js: default
+
+  autowrite: true
+
+  assets:
+    - "main.css"
+    - "*.js"
+
+  sources:
+    - css
+    - js
+
+# ------------------------
+
+# Build settings
+markdown: kramdown
+
+# Maps
+maps:
+  google:
+    api_key: AIzaSyArBBEqgoRS4NIKBoFzXqM775z5Fw5Znu8
+
+# Carousels
+babyboy:
+    folder: "/images/babyboy/"
+    images:
+     - url: "babyboy01.jpg"
+     - url: "babyboy02.jpg"
+     - url: "babyboy03.jpg"

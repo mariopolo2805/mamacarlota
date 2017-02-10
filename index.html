@@ -1,0 +1,56 @@
+---
+layout: default
+title: home
+id: home
+languages:
+    - es
+subset: home
+---
+
+<div class="home">
+    <div class="parallax-container background-mask">
+        <div class="parallax"><img src="/images/home/home-1.jpg"></div>
+        <br><br>
+        <header class="container">
+                <br>
+                <br class="hide-on-med-and-down">
+                <br class="hide-on-med-and-down">
+                <h1 class="header white-text text-darken-2">
+                    {% t 'title' %}
+                </h1>
+                <h2 class="white-text text-darken-2">
+                    {% t 'homeTitle' %}
+                </h2>
+                <h3 class="light white-text row text-condensed">
+                    <span class="col l12">{% t 'description1' %}</span>
+                    <br><br>
+                    <span class="col l7">{% t 'description2' %}</span>
+                    <br><br>
+                    <span class="col l7">{% t 'phone' %}</span>
+                </h3>
+                <br>
+        </header>
+        <br class="hide-on-med-and-down">
+    </div>
+    <div class="section white">
+        <div class="row container">
+            <h2 class="header">{% t 'presentation' %}</h2>
+            <p class="grey-text text-darken-3 lighten-3">{% t 'p1' %}</p>
+            <p class="grey-text text-darken-3 lighten-3">{% t 'p2' %}</p>
+            <p class="grey-text text-darken-3 lighten-3">{% t 'p3' %}</p>
+        </div>
+    </div>
+    <div class="parallax-container background-mask">
+        <div class="parallax"><img src="/images/home/home-2.jpg"></div>
+    </div>
+    <div class="section white">
+        <div class="row container">
+            <h2 class="header">{% t 'mapsTitle' %}</h2>
+            <br>
+            <span class="col l7">{% t 'address' %}</span>
+            <br>
+            <br>
+            <div id="map"></div>
+        </div>
+    </div>
+</div>
