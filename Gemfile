@@ -21,3 +21,5 @@ gem 'uglifier'
 gem 'jekyll-assets'
 
 gem 'jekyll-sitemap'
+
+gem 'rack-jekyll'
