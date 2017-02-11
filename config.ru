@@ -1,24 +1,10 @@
-# require 'rack/jekyll'
-# run Rack::Jekyll.new
-
-# require 'rack/contrib/try_static'
-#
-# use Rack::TryStatic,
-#     :root => "_site",
-#     :urls => %w[/],
-#     :try => ['.html', 'index.html', '/index.html']
-#
-# run lambda { |env|
-#   return [404, {'Content-Type' => 'text/html'}, ['Not Found']]
-# }
-
 require 'rack'
 require 'rack/contrib/try_static'
 
 # enable compression
 use Rack::Deflater
 
-# static configuration (file path matches reuest path)
+# static configuration (file path matches request path)
 use Rack::TryStatic,
       :root => "_site",  # static files root dir
       :urls => %w[/],    # match all requests

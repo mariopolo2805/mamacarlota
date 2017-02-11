@@ -8,7 +8,7 @@ language_includes_dir: _i18n
 
 languages: ['es']
 
-exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'css', 'js']
+exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'css', 'js', 'config.ru', 'vendor']
 
 include: ['_i18n']
 
@@ -256,7 +256,3 @@ girl:
       name: "Titulo9"
     - url: "girl10.jpg"
       name: "Titulo10"
-
-# Heroku
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
-# exclude: ['vendor']

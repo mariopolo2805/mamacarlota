@@ -22,13 +22,5 @@ gem 'jekyll-assets'
 
 gem 'jekyll-sitemap'
 
-# gem 'rack-jekyll'
-# gem 'RedCloth'
-
-# gem 'rake'
-# gem 'foreman'
-# gem 'thin'
-# gem 'rack-contrib'
-
 gem 'rack-contrib'
 gem 'puma'
