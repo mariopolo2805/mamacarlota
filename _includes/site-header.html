@@ -17,10 +17,10 @@
             </a>
             <ul class="side-nav" id="mobile-menu">
                 <li {% if current == 'home' %} class="active" {% endif %}>
-                    <a href="{{site.baseurl}}/{{ page.language }}/">{% t 'home.title_tab' %}</a>
+                    <a href="{{site.baseurl}}/{{ page.language }}">{% t 'home.title_tab' %}</a>
                 </li>
                 <li {% if current == 'catalog' %} class="active" {% endif %}>
-                    <a href="{{ site.baseurl }}/{{ page.language }}/{% t 'catalog.url' %}">{% t 'catalog.title_tab' %}</a>
+                    <a href="{{ site.baseurl }}/{{ page.language }}{% t 'catalog.url' %}">{% t 'catalog.title_tab' %}</a>
                 </li>
             </ul>
         </div>
