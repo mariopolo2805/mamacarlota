@@ -1,0 +1,1 @@
+!function(a,e){var n=/^([^-]+)/gi;e(function(){if(e("#site-languages-json").length>0){var g=JSON.parse(e("#site-languages-json").html()||"{}");console.log(g);var o=navigator.language||navigator.userLanguage;if(match=n.exec(o)){var r=match[1],t="";g.hasOwnProperty(r)?(t=g[r],a.location.replace(t)):t=g.es}}})}(window,jQuery);
