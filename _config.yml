@@ -258,5 +258,5 @@ girl:
       name: "Titulo10"
 
 # Heroku
-# exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
-exclude: ['vendor']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
+# exclude: ['vendor']

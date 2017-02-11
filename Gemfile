@@ -22,9 +22,9 @@ gem 'jekyll-assets'
 
 gem 'jekyll-sitemap'
 
-# gem 'rack-jekyll'
+gem 'rack-jekyll'
 
-gem 'rake'
-gem 'foreman'
-gem 'thin'
-gem 'rack-contrib'
+# gem 'rake'
+# gem 'foreman'
+# gem 'thin'
+# gem 'rack-contrib'
