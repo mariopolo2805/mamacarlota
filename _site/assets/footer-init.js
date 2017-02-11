@@ -1,0 +1,1 @@
+var footer=function(){function e(e){var n=new showdown.Converter;$.ajax({url:e,type:"get",dataType:"html",success:function(e){$("#include-terms").append(n.makeHtml(e))}})}return{loadTerms:e}}();

@@ -1,0 +1,188 @@
+@import './_scss/mixins';
+@import './_scss/typography';
+@import './_scss/color';
+
+
+$backdrop: rgba(color("cyan", "darken-1"), 0.33);
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    @include display-flex;
+    @include flex-direction(column);
+}
+
+main {
+    @include flex(1 0 auto);
+}
+
+.brand-logo {
+    width: 260px;
+    height: 50px;
+    margin-top: 3px;
+
+    &.mobile {
+        width: 240px;
+        height: auto;
+    }
+}
+
+.button-collapse,
+nav .brand-logo,
+nav ul a {
+    color: color("grey", "darken-4");
+}
+
+nav ul a {
+    padding: 0 10px;
+}
+
+a {
+    color: color("cyan", "darken-1");
+}
+
+footer {
+    .row {
+        margin-bottom: 0;
+    }
+}
+
+.header {
+    margin-bottom: 6px;
+
+    & + h2 {
+        margin-top: 0;
+    }
+}
+
+.btn {
+    padding: 0 1rem;
+}
+
+.valign-bot {
+    vertical-align: bottom;
+}
+
+.tabs {
+    border: solid 1px color("cyan", "darken-1");
+
+    .indicator {
+        display: none;
+    }
+
+    .active {
+        color: white !important;
+        background-color: color("cyan", "darken-1");
+    }
+}
+
+.icon-block {
+    padding: 0 20px;
+}
+
+.indicator-item {
+    background-color: gainsboro !important;
+
+    &.active {
+        background-color: dimgray !important;
+    }
+}
+
+.collapse {
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+table.collapse {
+    display: none;
+}
+
+.card {
+    &.card.small {
+        .card-image + .card-content {
+            max-height: 100%;
+        }
+        .card-image {
+            max-height: 80%;
+        }
+        .card-title {
+            font-size: 25px !important;
+        }
+    }
+    .card-content {
+        .card-title {
+            line-height: 30px;
+            font-size: 20px;
+        }
+    }
+}
+
+// Flex rules
+
+.flex {
+    @include display-flex;
+}
+
+.flex-column {
+    @include display-flex;
+    @include flex-direction(column);
+}
+
+.flex-grow {
+    @include flex-grow(1);
+}
+
+.flex-row {
+    @include display-flex;
+    @include flex-direction(row);
+    @include justify-content(center);
+    @include align-items(center);
+}
+
+// MEDIA Small Only
+
+@media only screen and (max-width: 601) {
+    .center-on-small-only {
+        text-align: center;
+    }
+}
+
+// HOME
+
+.background-mask {
+    background-size: cover;
+    background-position: center center;
+    background-color: $backdrop;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+// CATALOG
+
+.catalog {
+
+    .carousel .carousel-item {
+        width: 350px !important;
+    }
+
+    .logo {
+        width: 300px;
+        height: auto;
+    }
+
+    .resume {
+        background-image: url("/images/catalog/resume.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 200px;
+    }
+}
