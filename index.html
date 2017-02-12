@@ -26,7 +26,9 @@ subset: home
                     <br><br>
                     <span class="col l7">{% t 'description2' %}</span>
                     <br><br>
-                    <span class="col l7">{% t 'phone' %}</span>
+                    <span class="col l7">
+                        <a href="tel:{% t 'phone' %}">{% t 'phone' %}</a>
+                    </span>
                 </h3>
                 <br>
         </header>
@@ -37,7 +39,7 @@ subset: home
             <h2 class="header">{% t 'presentation' %}</h2>
             <p class="grey-text text-darken-3 lighten-3">{% t 'p1' %}</p>
             <p class="grey-text text-darken-3 lighten-3">{% t 'p2' %}</p>
-            <p class="grey-text text-darken-3 lighten-3">{% t 'p3' %}</p>
+            <p class="grey-text text-darken-3 lighten-3">{% t 'p3_1' %}<a href="{{ site.baseurl }}/{{ page.language }}{% t 'catalog.url' %}">{% t 'p3_2' %}</a>{% t 'p3_3' %}</p>
         </div>
     </div>
     <div class="parallax-container background-mask">

@@ -15,14 +15,16 @@ home:
     homeTitle: "El Almacén de Mamá"
     description1: "Tienda de bebés y niños de O a 16. Especialistas en ceremonia, comunión y bautizo."
     description2: "También confección a media. Complementos y calzado."
-    phone: "Teléfono: 91 042 12 45"
+    phone: "91 042 12 45"
     title_tab: "INICIO"
     url: "/"
 
     presentation: "Ropa de ceremonia para niños en Madrid y confección de prendas de gran calidad"
     p1: "En Mamacarlota (El Almacén de Mamá) todas las prendas son fabricadas en España con el máximo control y cuidado; cumpliendo nuestro objetivo y asegurando tanto calidad como acabados exquisitos."
     p2: "Diseñamos desde vestidos para ceremonia o eventos, hasta prendas básicas e informales, siempre manteniendo nuestro estilo propio y cuidando hasta el mínimo detalle."
-    p3: "Te invitamos a que entres y veas toda la moda infantil que hemos seleccionado para ti, porque si buscas algo diferente, aquí lo vas a encontrar."
+    p3_1: "Te invitamos a que entres y veas toda la moda infantil que hemos seleccionado para ti, porque si buscas algo diferente, "
+    p3_2: "aquí"
+    p3_3: " lo vas a encontrar."
 
     mapsTitle: "¿Dónde estamos ubicados?"
     address: "Calle de Narváez 13, 28009 Madrid"
@@ -35,6 +37,11 @@ catalog:
     title_tab: "CATÁLOGO"
     url: "/catalogo"
 
+    accessories:
+        title: "Accesorios"
+        url: "/accesorios"
+        image: "/images/catalog/accessories.jpg"
+
     babyboy:
         title: "Bebé niño"
         url: "/bebe-nino"
@@ -45,30 +52,20 @@ catalog:
         url: "/bebe-nina"
         image: "/images/catalog/babygirl.jpg"
 
-    christening:
-        title: "Bautizo"
-        url: "/bautizo"
-        image: "/images/catalog/christening.jpg"
-
     boy:
         title: "Niño"
         url: "/nino"
         image: "/images/catalog/boy.jpg"
 
-    girl:
-        title: "Niña"
-        url: "/nina"
-        image: "/images/catalog/girl.jpg"
+    christening:
+        title: "Bautizo"
+        url: "/bautizo"
+        image: "/images/catalog/christening.jpg"
 
     communion:
         title: "Comunión"
         url: "/comunion"
         image: "/images/catalog/communion.jpg"
-
-    accessories:
-        title: "Accesorios"
-        url: "/accesorios"
-        image: "/images/catalog/accessories.jpg"
 
     footwear:
         title: "Calzado"
@@ -79,6 +76,16 @@ catalog:
         title: "Regalos"
         url: "/regalos"
         image: "/images/catalog/gifts.jpg"
+
+    girl:
+        title: "Niña"
+        url: "/nina"
+        image: "/images/catalog/girl.jpg"
+
+    wedding:
+        title: "Arras"
+        url: "/arras"
+        image: "/images/catalog/wedding.jpg"
 
 accessories:
     title-tag: "Catálogo de Mamacarlota - Accesorios"
@@ -124,3 +131,8 @@ girl:
     title-tag: "Catálogo de Mamacarlota - Niña"
     title: "Niña"
     subtitle: "De 3 a 14 años."
+
+wedding:
+    title-tag: "Catálogo de Mamacarlota - Arras"
+    title: "Arras"
+    subtitle: "Vestidos y trajes."

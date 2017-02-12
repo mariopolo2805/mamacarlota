@@ -3,7 +3,7 @@
 @import './_scss/color';
 
 
-$backdrop: rgba(color("cyan", "darken-1"), 0.33);
+$backdrop: rgba(color("cyan", "darken-3"), 0.50);
 
 #map {
     height: 400px;
@@ -46,6 +46,15 @@ nav ul a {
 
 a {
     color: color("cyan", "darken-1");
+}
+
+a[href^="tel:"] {
+    color: white;
+    text-decoration: none;
+}
+a[href^="tel:"]:before {
+    content: "\260e";
+    margin-right: 0.5em;
 }
 
 footer {
@@ -183,6 +192,7 @@ table.collapse {
         background-image: url("/images/catalog/resume.jpg");
         background-size: cover;
         background-position: center center;
-        height: 200px;
+        background-color: $backdrop;
+        height: 300px;
     }
 }
