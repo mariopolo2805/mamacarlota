@@ -180,7 +180,18 @@ table.collapse {
 .catalog {
 
     .carousel .carousel-item {
+        text-align: center;
         width: 350px !important;
+
+        img {
+            max-height: 350px !important;
+            width: auto;
+            height: auto;
+        }
+
+        span {
+            display: block;
+        }
     }
 
     .logo {
