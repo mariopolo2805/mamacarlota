@@ -1,6 +1,6 @@
 1. **DATOS IDENTIFICATIVOS**
 
-    En cumplimiento con el deber de información recogido en artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico, a continuación se reflejan los siguientes datos: la empresa titular de dominio web es Formibel Moda, SL (en adelante Mamacarlota), con domicilio a estos efectos en DDDDD número de C.I.F.: 0B87616173 inscrita en el MMMMM. Correo electrónico de contacto: EEEEE del sitio web.
+    En cumplimiento con el deber de información recogido en artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico, a continuación se reflejan los siguientes datos: la empresa titular de dominio web es Formibel Moda SL (en adelante Mamacarlota), con domicilio a estos efectos en Calle Mar Amarillo 9 (Madrid) número de C.I.F.: B87616173 inscrita en el Registro Mercantil de Madrid en el tomo 35037, inscripción 0 del Libro de Sociedades, Folio 13, Sección 8, Hoja M-630115. Correo electrónico de contacto: belenarpa@hotmail.es del sitio web.
 
 2. **USUARIOS**
 
@@ -9,13 +9,13 @@
 
 3. **USO DEL PORTAL**
 
-    WWWWW proporciona el acceso a multitud de informaciones, servicios, programas o datos (en adelante, “los contenidos”) en Internet pertenecientes a Mamacarlota o a sus licenciantes a los que el USUARIO pueda tener acceso. El USUARIO asume la responsabilidad del uso del portal. Dicha responsabilidad se extiende al registro que fuese necesario para acceder a determinados servicios o contenidos.
+    www.mamacarlota.es proporciona el acceso a multitud de informaciones, servicios, programas o datos (en adelante, “los contenidos”) en Internet pertenecientes a Mamacarlota o a sus licenciantes a los que el USUARIO pueda tener acceso. El USUARIO asume la responsabilidad del uso del portal. Dicha responsabilidad se extiende al registro que fuese necesario para acceder a determinados servicios o contenidos.
     En dicho registro el USUARIO será responsable de aportar información veraz y lícita. Como consecuencia de este registro, al USUARIO se le puede proporcionar una contraseña de la que será responsable,
     comprometiéndose a hacer un uso diligente y confidencial de la misma. El USUARIO se compromete a hacer un uso adecuado de los contenidos y servicios (como por ejemplo servicios de chat, foros de discusión o grupos de noticias) que Nombre de la empresa creadora del sitio web ofrece a través de su portal y con carácter enunciativo pero no limitativo, a no emplearlos para (i) incurrir en actividades ilícitas, ilegales o contrarias a la buena fe y al orden público; (ii) difundir contenidos o propaganda de carácter racista, xenófobo, pornográfico-ilegal, de apología del terrorismo o atentatorio contra los derechos humanos; (iii) provocar daños en los sistemas físicos y lógicos de Nombre de la empresa creadora del sitio web , de sus proveedores o de terceras personas, introducir o difundir en la red virus informáticos o cualesquiera otros sistemas físicos o lógicos que sean susceptibles de provocar los daños anteriormente mencionados; (iv) intentar acceder y, en su caso, utilizar las cuentas de correo electrónico de otros usuarios y modificaro manipular sus mensajes. Nombre de la empresa creadora del sitio web se reserva el derecho de retirar todos aquellos comentarios y aportaciones que vulneren el respeto a la dignidad de la persona, que sean discriminatorios, xenófobos, racistas, pornográficos, que atenten contra la juventud o la infancia, el orden o la seguridad pública o que, a su juicio, no resultaran adecuados para su publicación. En cualquier caso, Mamacarlota no será responsable de las opiniones vertidas por los usuarios a través de los foros, chats, u otras herramientas de participación.
 
 
 4. **PROTECCIÓN DE DATOS**
-    Mamacarlota cumple con las directrices de la Ley Orgánica 15/1999 de 13 de diciembre de Protección de Datos de Carácter Personal, el Real Decreto 1720/2007 de 21 de diciembre por el que se aprueba el Reglamento de desarrollo de la Ley Orgánica y demás normativa vigente en cada momento, y vela por garantizar un correcto uso y tratamiento de los datos personales del usuario. Para ello, junto a cada formulario de recabo de datos de carácter personal, en los servicios que el usuario pueda solicitar a KKKKK, hará saber al usuario de la existencia y aceptación de las condiciones particulares del tratamiento de sus datos en cada caso, informándole de la responsabilidad del fichero creado, la dirección del responsable, la posibilidad de ejercer sus derechos de acceso, rectificación, cancelación u oposición, la finalidad del tratamiento y las comunicaciones de datos a terceros en su caso.
+    Mamacarlota cumple con las directrices de la Ley Orgánica 15/1999 de 13 de diciembre de Protección de Datos de Carácter Personal, el Real Decreto 1720/2007 de 21 de diciembre por el que se aprueba el Reglamento de desarrollo de la Ley Orgánica y demás normativa vigente en cada momento, y vela por garantizar un correcto uso y tratamiento de los datos personales del usuario. Para ello, junto a cada formulario de recabo de datos de carácter personal, en los servicios que el usuario pueda solicitar a belenarpa@hotmail.es, hará saber al usuario de la existencia y aceptación de las condiciones particulares del tratamiento de sus datos en cada caso, informándole de la responsabilidad del fichero creado, la dirección del responsable, la posibilidad de ejercer sus derechos de acceso, rectificación, cancelación u oposición, la finalidad del tratamiento y las comunicaciones de datos a terceros en su caso.
 
     Asimismo, Mamacarlota informa que da cumplimiento a la Ley 34/2002 de 11 de julio, de Servicios de la Sociedad de la Información y el Comercio Electrónico y le solicitará su consentimiento al tratamiento de su correo electrónico con fines comerciales en cada momento.
 
@@ -35,7 +35,7 @@
 
 
 8. **ENLACES**
-    En el caso de que en WWWWW se dispusiesen enlaces o hipervínculos hacía otros sitios de Internet, Mamacarlota no ejercerá ningún tipo de control sobre dichos sitios y contenidos. En ningún caso
+    En el caso de que en www.mamacarlota.es se dispusiesen enlaces o hipervínculos hacía otros sitios de Internet, Mamacarlota no ejercerá ningún tipo de control sobre dichos sitios y contenidos. En ningún caso
     Mamacarlota asumirá responsabilidad alguna por los contenidos de algún enlace perteneciente a un sitio web ajeno, ni garantizará la disponibilidad técnica, calidad, fiabilidad, exactitud, amplitud, veracidad, validez y
     constitucionalidad de cualquier material o información contenida en ninguno de dichos hipervínculos u otros sitios de Internet.
 
@@ -58,21 +58,3 @@
 
 12. **LEGISLACIÓN APLICABLE Y JURISDICCIÓN**
     La relación entre Mamacarlota y el USUARIO se regirá por la normativa española vigente y cualquier controversia se someterá a los Juzgados y tribunales de la ciudad de Madrid.
-
-    <!-- Sustituir RRRRR por el nombre real de la empresa (por ejemplo “Arreglos Tomás y Hijos, SL”)
-
-    Sustituir NNNNN por el nombre/alias de la empresa (por ejemplo “Arreglos Tomás”)
-
-    Sustituir WWWWW por la url de la web (por ejemplo “www.onelifemanydreams.com”)
-
-    Sustituir QQQQQ por la población donde está registrada la empresa en el registro mercantil (por ejemplo “Madrid”)
-
-    Sustituir EEEEE por el correo electrónico de contacto general de la empresa
-
-    Sustituir CCCCC por el CIF de la empresa (por ejemplo X-3552154)
-
-    Sustituir KKKKK por el email de contacto (por ejemplo info@onelifemanydreams.com)
-
-    Sustituir DDDDD por la dirección de la empresa (por ejemplo “Calle Mayor nº 14 piso 7, Villanueva de Palos, Madrid”)
-
-    Sustituir MMMMM por tus datos del Registro Mercantil (por ejemplo ” Registro Mercantil de Madrid en el tomo YYYY general, ZZZZ de la Sección A, inscripción B del Libro de Sociedades, folio XX, Hoja XXXXX”) -->
