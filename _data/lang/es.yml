@@ -11,15 +11,15 @@ cookies:
 
 home:
     title: "Mamacarlota"
-    homeTitle: "El Almacén de Mamá"
-    description1: "Tienda de bebés y niños de O a 16. Especialistas en ceremonia, comunión y bautizo."
+    homeTitle: "Tienda de bebés y niños de O a 16"
+    description1: "Especialistas en ceremonia, comunión y bautizo."
     description2: "También confección a media. Complementos y calzado."
     phone: "91 042 12 45"
     title_tab: "INICIO"
     url: "/"
 
     presentation: "Ropa de ceremonia para niños en Madrid y confección de prendas de gran calidad"
-    p1: "En Mamacarlota (El Almacén de Mamá) todas las prendas son fabricadas en España con el máximo control y cuidado; cumpliendo nuestro objetivo y asegurando tanto calidad como acabados exquisitos."
+    p1: "En Mamacarlota todas las prendas son fabricadas en España con el máximo control y cuidado; cumpliendo nuestro objetivo y asegurando tanto calidad como acabados exquisitos."
     p2: "Diseñamos desde vestidos para ceremonia o eventos, hasta prendas básicas e informales, siempre manteniendo nuestro estilo propio y cuidando hasta el mínimo detalle."
     p3_1: "Te invitamos a que entres y veas toda la moda infantil que hemos seleccionado para ti, porque si buscas algo diferente, "
     p3_2: "aquí"
@@ -64,7 +64,7 @@ catalog:
     communion:
         title: "Comunión"
         url: "/comunion"
-        image: "/images/catalog/communion_14_02_2017.jpg"
+        image: "/images/catalog/communion.jpg"
 
     footwear:
         title: "Calzado"
