@@ -37,3 +37,13 @@ span {
 .text-justify {
     text-align: justify;
 }
+
+@import url('https://www.fontify.me/wf/53dae06d71df5264fb7f95151d384135');
+.lucemita {
+    font-family: font93887;
+    font-size: 4rem;
+
+    &.title {
+        font-size: 4.5rem;
+    }
+}

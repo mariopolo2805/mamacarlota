@@ -1,7 +1,7 @@
 site:
-    title: "Mamacarlota"
-    title-tag: "Mamacarlota"
-    description: "Website de Mamacarlota"
+    title: "MamaCarlota"
+    title-tag: "MamaCarlota"
+    description: "Website de MamaCarlota"
     keywords: "mamacarlota"
 terms:
     title: "Aviso Legal"
@@ -10,16 +10,16 @@ cookies:
     title-tag: "Política de cookies"
 
 home:
-    title: "Mamacarlota"
-    homeTitle: "Tienda de bebés y niños de O a 16"
-    description1: "Especialistas en ceremonia, comunión y bautizo."
-    description2: "También confección a media. Complementos y calzado."
+    title: "MamaCarlota"
+    homeTitle: "Tienda de bebés y niños de 0 a 16 años"
+    description1: "Especialistas en ceremonia, comunión y bautizo. También confección a media. Complementos y calzado."
+    description2: "Más de 20 años de experiencia en moda (bebés, niños y ceremonia), nos hace ser una empresa familiar, diferente y original."
     phone: "91 042 12 45"
     title_tab: "INICIO"
     url: "/"
 
     presentation: "Ropa de ceremonia para niños en Madrid y confección de prendas de gran calidad"
-    p1: "En Mamacarlota todas las prendas son fabricadas en España con el máximo control y cuidado; cumpliendo nuestro objetivo y asegurando tanto calidad como acabados exquisitos."
+    p1: "En MamaCarlota todas las prendas son fabricadas en España con el máximo control y cuidado; cumpliendo nuestro objetivo y asegurando tanto calidad como acabados exquisitos."
     p2: "Diseñamos desde vestidos para ceremonia o eventos, hasta prendas básicas e informales, siempre manteniendo nuestro estilo propio y cuidando hasta el mínimo detalle."
     p3_1: "Te invitamos a que entres y veas toda la moda infantil que hemos seleccionado para ti, porque si buscas algo diferente, "
     p3_2: "aquí"
@@ -29,8 +29,9 @@ home:
     address: "Calle de Narváez 13, 28009 Madrid"
 
 catalog:
-    title-tag: "Catálogo de Mamacarlota"
-    title: "Catálogo de Mamacarlota"
+    title-tag: "Catálogo de MamaCarlota"
+    title_1: "Catálogo de "
+    title_2: "MamaCarlota"
     subtitle: "En nuestro catálogo encontrará la más amplia variedad."
 
     title_tab: "CATÁLOGO"
@@ -54,7 +55,7 @@ catalog:
     boy:
         title: "Niño"
         url: "/nino"
-        image: "/images/catalog/boy.jpg"
+        image: "/images/catalog/boy.png"
 
     christening:
         title: "Bautizo"
@@ -79,7 +80,7 @@ catalog:
     girl:
         title: "Niña"
         url: "/nina"
-        image: "/images/catalog/girl.jpg"
+        image: "/images/catalog/girl.png"
 
     wedding:
         title: "Arras"
@@ -87,51 +88,51 @@ catalog:
         image: "/images/catalog/wedding.jpg"
 
 accessories:
-    title-tag: "Catálogo de Mamacarlota - Accesorios"
+    title-tag: "Catálogo de MamaCarlota - Accesorios"
     title: "Accesorios"
     subtitle: "Diademas, turbantes, lazos, gomas de pelo y mucho más."
 
 babyboy:
-    title-tag: "Catálogo de Mamacarlota - Bebé niño"
+    title-tag: "Catálogo de MamaCarlota - Bebé niño"
     title: "Bebé niño"
     subtitle: "De 0 a 3 años."
 
 babygirl:
-    title-tag: "Catálogo de Mamacarlota - Bebé niña"
+    title-tag: "Catálogo de MamaCarlota - Bebé niña"
     title: "Bebé niña"
     subtitle: "De 0 a 3 años."
 
 boy:
-    title-tag: "Catálogo de Mamacarlota - Niño"
+    title-tag: "Catálogo de MamaCarlota - Niño"
     title: "Niño"
     subtitle: "De 3 a 14 años."
 
 christening:
-    title-tag: "Catálogo de Mamacarlota - Bautizo"
+    title-tag: "Catálogo de MamaCarlota - Bautizo"
     title: "Bautizo"
     subtitle: "Conjuntos para niño y niña."
 
 communion:
-    title-tag: "Catálogo de Mamacarlota - Comunión"
+    title-tag: "Catálogo de MamaCarlota - Comunión"
     title: "Comunión"
     subtitle: "Trajes, vestidos, y coronas de flores."
 
 footwear:
-    title-tag: "Catálogo de Mamacarlota - Calzado"
+    title-tag: "Catálogo de MamaCarlota - Calzado"
     title: "Calzado"
     subtitle: "Zapatos, calcetines y medias."
 
 gifts:
-    title-tag: "Catálogo de Mamacarlota - Regalos"
+    title-tag: "Catálogo de MamaCarlota - Regalos"
     title: "Regalos"
     subtitle: "Cestas personalizadas."
 
 girl:
-    title-tag: "Catálogo de Mamacarlota - Niña"
+    title-tag: "Catálogo de MamaCarlota - Niña"
     title: "Niña"
     subtitle: "De 3 a 14 años."
 
 wedding:
-    title-tag: "Catálogo de Mamacarlota - Arras"
+    title-tag: "Catálogo de MamaCarlota - Arras"
     title: "Arras"
     subtitle: "Vestidos y trajes."
