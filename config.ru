@@ -11,8 +11,8 @@ use Rack::TryStatic,
       :try => ['.html', 'index.html', '/index.html'], # try these postfixes sequentially
       :gzip => true,     # enable compressed files
       :header_rules => [
-        [:all, {'Cache-Control' => 'public, max-age=3600'}],
-        [['css', 'js'], {'Cache-Control' => 'public, max-age=3600'}]
+        [:all, {'Cache-Control' => 'public, max-age=0'}],
+        [['css', 'js'], {'Cache-Control' => 'public, max-age=0'}]
       ]
 
 # otherwise 404 NotFound
