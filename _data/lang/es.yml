@@ -55,7 +55,7 @@ catalog:
     boy:
         title: "Niño"
         url: "/nino"
-        image: "/images/catalog/boy.png"
+        image: "/images/catalog/boy.jpg"
 
     christening:
         title: "Bautizo"

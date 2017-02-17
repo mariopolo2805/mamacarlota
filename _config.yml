@@ -74,11 +74,11 @@ babygirl:
 boy:
   folder: "/images/boy/"
   images:
-    - url: "boy01.png"
+    - url: "boy01.jpg"
       name: "Niño 01"
-    - url: "boy02.png"
+    - url: "boy02.jpg"
       name: "Niño 02"
-    - url: "boy03.png"
+    - url: "boy03.jpg"
       name: "Niño 03"
 
 christening:
