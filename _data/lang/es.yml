@@ -80,7 +80,7 @@ catalog:
     girl:
         title: "Niña"
         url: "/nina"
-        image: "/images/catalog/girl.png"
+        image: "/images/catalog/girl.jpg"
 
     wedding:
         title: "Arras"
