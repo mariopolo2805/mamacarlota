@@ -1,8 +1,8 @@
 site:
     title: "MamaCarlota"
     title-tag: "MamaCarlota"
-    description: "Website de MamaCarlota"
-    keywords: "mamacarlota"
+    description: "MamaCarlota - Tienda de bebés y niños en barrio Salamanca (Madrid)"
+    keywords: "mamacarlota, tienda bebé, tienda bebés, tienda bebé barrio salamanca, tienda bebés barrio salamanca"
 terms:
     title: "Aviso Legal"
 cookies:
@@ -88,51 +88,51 @@ catalog:
         image: "/images/catalog/wedding.jpg"
 
 accessories:
-    title-tag: "Catálogo de MamaCarlota - Accesorios"
+    title-tag: "Accesorios - Catálogo"
     title: "Accesorios"
     subtitle: "Diademas, turbantes, lazos, gomas de pelo y mucho más."
 
 babyboy:
-    title-tag: "Catálogo de MamaCarlota - Bebé niño"
+    title-tag: "Bebé niño - Catálogo"
     title: "Bebé niño"
     subtitle: "De 0 a 3 años."
 
 babygirl:
-    title-tag: "Catálogo de MamaCarlota - Bebé niña"
+    title-tag: "Bebé niña - Catálogo"
     title: "Bebé niña"
     subtitle: "De 0 a 3 años."
 
 boy:
-    title-tag: "Catálogo de MamaCarlota - Niño"
+    title-tag: "Niño - Catálogo"
     title: "Niño"
     subtitle: "De 3 a 14 años."
 
 christening:
-    title-tag: "Catálogo de MamaCarlota - Bautizo"
+    title-tag: "Bautizo - Catálogo"
     title: "Bautizo"
     subtitle: "Conjuntos para niño y niña."
 
 communion:
-    title-tag: "Catálogo de MamaCarlota - Comunión"
+    title-tag: "Comunión - Catálogo"
     title: "Comunión"
     subtitle: "Trajes, vestidos, y coronas de flores."
 
 footwear:
-    title-tag: "Catálogo de MamaCarlota - Calzado"
+    title-tag: "Calzado - Catálogo"
     title: "Calzado"
     subtitle: "Zapatos, calcetines y medias."
 
 gifts:
-    title-tag: "Catálogo de MamaCarlota - Regalos"
+    title-tag: "Regalos - Catálogo"
     title: "Regalos"
     subtitle: "Cestas personalizadas."
 
 girl:
-    title-tag: "Catálogo de MamaCarlota - Niña"
+    title-tag: "Niña - Catálogo"
     title: "Niña"
     subtitle: "De 3 a 14 años."
 
 wedding:
-    title-tag: "Catálogo de MamaCarlota - Arras"
+    title-tag: "Arras - Catálogo"
     title: "Arras"
     subtitle: "Vestidos y trajes."

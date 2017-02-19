@@ -1,2 +1,4 @@
 User-agent: *
 Disallow: /_i18n/
+Disallow: /images/
+Sitemap: http://www.mamacarlota.es/sitemap.xml
