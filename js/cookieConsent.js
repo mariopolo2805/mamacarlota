@@ -1,14 +1,13 @@
 var cookieConsent = function () {
-
     function initCookieConsent(url) {
         $(document).ready(function () {
             window.cookieconsent.initialise({
                 "palette": {
                     "popup": {
-                        "background": "#37474F"
+                        "background": "#26393B"
                     },
                     "button": {
-                        "background": "#80DEEA"
+                        "background": "#80C1C7"
                     }
                 },
                 "content": {
