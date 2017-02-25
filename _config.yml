@@ -188,6 +188,8 @@ communion:
       name: "Comunión 41"
     - url: "communion42.jpg"
       name: "Comunión 42"
+    - url: "communion43.jpg"
+      name: "Comunión 43"
 
 footwear:
   folder: "/images/footwear/"
@@ -280,3 +282,5 @@ wedding:
       name: "Arras 16"
     - url: "wedding17.jpg"
       name: "Arras 17"
+    - url: "wedding18.jpg"
+      name: "Arras 18"
