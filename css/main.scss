@@ -115,8 +115,13 @@ table.collapse {
 
 .card {
     &.card.small {
+        position: relative;
         .card-image + .card-content {
-            max-height: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 15px;
         }
         .card-image {
             max-height: 80%;
@@ -163,6 +168,13 @@ table.collapse {
     }
 }
 
+// TERMS
+#include-terms {
+    ol {
+        padding: 0 20px;
+    }
+}
+
 // HOME
 
 .background-mask {
@@ -200,7 +212,7 @@ table.collapse {
     }
 
     .resume {
-        background-image: url("/images/catalog/resume.jpg");
+        background-image: url("/images/home/resume.jpg");
         background-size: cover;
         background-position: center center;
         background-color: $backdrop;

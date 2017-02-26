@@ -4,19 +4,18 @@
 
 {% js footer-init %}
 <script type="text/javascript">
-    footer.loadTerms('/_i18n/{{page.language}}/terms.md')
+    footer.loadTerms('/terms.md')
 </script>
 
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 
-{% js language-redirect %}
 {% js materialize-init %}
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.1/cookieconsent.min.js"></script>
 {% js cookieConsent%}
 <script type="text/javascript">
-    cookieConsent.initCookieConsent("{{site.baseurl}}/{{ page.language }}/cookies");
+    cookieConsent.initCookieConsent("{{site.baseurl}}/cookies");
 </script>
 
 <!-- Maps -->

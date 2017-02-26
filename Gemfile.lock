@@ -31,7 +31,6 @@ GEM
       pathutil (>= 0.8)
       rack (> 1, < 2)
       sprockets (~> 3.3, < 3.7)
-    jekyll-language-plugin (1.3.3)
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
     jekyll-sitemap (0.10.0)
@@ -70,7 +69,6 @@ PLATFORMS
 DEPENDENCIES
   jekyll (= 3.3.0)
   jekyll-assets
-  jekyll-language-plugin
   jekyll-sitemap
   minima
   puma

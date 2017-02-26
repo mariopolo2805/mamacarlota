@@ -1,11 +1,10 @@
 ---
 layout: default
 title: Christening
+titleTag: Bautizo
 id: christening
-languages:
-    - es
 subset: christening
-permalink: /:language/catalogo/bautizo
+permalink: /catalogo/bautizo
 ---
 
 <div class="catalog christening">
@@ -14,9 +13,9 @@ permalink: /:language/catalogo/bautizo
         <header class="container center">
             <br><br><br>
             <h1 class="header lucemita">
-                {% t 'title' %}
+                {{site.christening.title}}
             </h1>
-            <h2 class="light">{% t 'subtitle' %}</h2>
+            <h2 class="light">{{site.christening.subtitle}}</h2>
             <br><br>
         </header>
     </div>

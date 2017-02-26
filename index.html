@@ -2,8 +2,6 @@
 layout: default
 title: home
 id: home
-languages:
-    - es
 subset: home
 ---
 
@@ -16,16 +14,16 @@ subset: home
                 <br class="hide-on-med-and-down">
                 <br class="hide-on-med-and-down">
                 <h1 class="lucemita header white-text text-darken-2">
-                    {% t 'title' %}
+                    {{site.home.title}}
                 </h1>
                 <h2 class="white-text text-darken-2">
-                    {% t 'homeTitle' %}
+                    {{site.home.homeTitle}}
                 </h2>
                 <h3 class="light white-text row text-condensed">
-                    <p class="col l12">{% t 'description1' %}</p>
-                    <p class="col l12">{% t 'description2' %}</p>
+                    <p class="col l12">{{site.home.description1}}</p>
+                    <p class="col l12">{{site.home.description2}}</p>
                     <span class="col l7">
-                        <a href="tel:{% t 'phone' %}">{% t 'phone' %}</a>
+                        <a href="tel:{{site.home.phone}}">{{site.home.phone}}</a>
                     </span>
                 </h3>
                 <br>
@@ -34,10 +32,10 @@ subset: home
     </div>
     <div class="section white">
         <div class="row container">
-            <h2 class="header">{% t 'presentation' %}</h2>
-            <p class="grey-text text-darken-3 lighten-3">{% t 'p1' %}</p>
-            <p class="grey-text text-darken-3 lighten-3">{% t 'p2' %}</p>
-            <p class="grey-text text-darken-3 lighten-3">{% t 'p3_1' %}<a href="{{ site.baseurl }}/{{ page.language }}{% t 'catalog.url' %}">{% t 'p3_2' %}</a>{% t 'p3_3' %}</p>
+            <h2 class="header">{{site.home.presentation}}</h2>
+            <p class="grey-text text-darken-3 lighten-3">{{site.home.p1}}</p>
+            <p class="grey-text text-darken-3 lighten-3">{{site.home.p2}}</p>
+            <p class="grey-text text-darken-3 lighten-3">{{site.home.p3_1}}<a href="{{ site.baseurl }}{{site.catalog.url}}">{{site.home.p3_2}}</a>{{site.home.p3_3}}</p>
         </div>
     </div>
     <div class="parallax-container background-mask">
@@ -45,9 +43,9 @@ subset: home
     </div>
     <div class="section white">
         <div class="row container">
-            <h2 class="header">{% t 'mapsTitle' %}</h2>
+            <h2 class="header">{{site.home.mapsTitle}}</h2>
             <br>
-            <span class="col l7">{% t 'address' %}</span>
+            <span class="col l7">{{site.home.address}}</span>
             <br>
             <br>
             <div id="map"></div>

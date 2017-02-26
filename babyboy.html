@@ -1,11 +1,10 @@
 ---
 layout: default
 title: Babyboy
+titleTag: Bebé niño
 id: babyboy
-languages:
-    - es
 subset: babyboy
-permalink: /:language/catalogo/bebe-nino
+permalink: /catalogo/bebe-nino
 ---
 
 <div class="catalog babyboy">
@@ -14,9 +13,9 @@ permalink: /:language/catalogo/bebe-nino
         <header class="container center">
             <br><br><br>
             <h1 class="header lucemita">
-                {% t 'title' %}
+                {{site.babyboy.title}}
             </h1>
-            <h2 class="light">{% t 'subtitle' %}</h2>
+            <h2 class="light">{{site.babyboy.subtitle}}</h2>
             <br><br>
         </header>
     </div>

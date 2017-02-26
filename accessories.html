@@ -1,11 +1,10 @@
 ---
 layout: default
 title: Accessories
+titleTag: Accesorios
 id: accessories
-languages:
-    - es
 subset: accessories
-permalink: /:language/catalogo/accesorios
+permalink: /catalogo/accesorios
 ---
 
 <div class="catalog accessories">
@@ -14,9 +13,9 @@ permalink: /:language/catalogo/accesorios
         <header class="container center">
             <br><br><br>
             <h1 class="header lucemita">
-                {% t 'title' %}
+                {{site.accessories.title}}
             </h1>
-            <h2 class="light">{% t 'subtitle' %}</h2>
+            <h2 class="light">{{site.accessories.subtitle}}</h2>
             <br><br>
         </header>
     </div>

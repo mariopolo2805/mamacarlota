@@ -1,11 +1,10 @@
 ---
 layout: default
 title: Communion
+titleTag: Comunión
 id: communion
-languages:
-    - es
 subset: communion
-permalink: /:language/catalogo/comunion
+permalink: /catalogo/comunion
 ---
 
 <div class="catalog communion">
@@ -14,9 +13,9 @@ permalink: /:language/catalogo/comunion
         <header class="container center">
             <br><br><br>
             <h1 class="header lucemita">
-                {% t 'title' %}
+                {{site.communion.title}}
             </h1>
-            <h2 class="light">{% t 'subtitle' %}</h2>
+            <h2 class="light">{{site.communion.subtitle}}</h2>
             <br><br>
         </header>
     </div>

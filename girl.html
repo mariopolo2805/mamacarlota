@@ -1,11 +1,10 @@
 ---
 layout: default
 title: Girl
+titleTag: Niña
 id: girl
-languages:
-    - es
 subset: girl
-permalink: /:language/catalogo/nina
+permalink: /catalogo/nina
 ---
 
 <div class="catalog girl">
@@ -14,9 +13,9 @@ permalink: /:language/catalogo/nina
         <header class="container center">
             <br><br><br>
             <h1 class="header lucemita">
-                {% t 'title' %}
+                {{site.girl.title}}
             </h1>
-            <h2 class="light">{% t 'subtitle' %}</h2>
+            <h2 class="light">{{site.girl.subtitle}}</h2>
             <br><br>
         </header>
     </div>

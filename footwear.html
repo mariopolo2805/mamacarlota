@@ -1,11 +1,10 @@
 ---
 layout: default
 title: Footwear
+titleTag: Calzado
 id: footwear
-languages:
-    - es
 subset: footwear
-permalink: /:language/catalogo/calzado
+permalink: /catalogo/calzado
 ---
 
 <div class="catalog footwear">
@@ -14,9 +13,9 @@ permalink: /:language/catalogo/calzado
         <header class="container center">
             <br><br><br>
             <h1 class="header lucemita">
-                {% t 'title' %}
+                {{site.footwear.title}}
             </h1>
-            <h2 class="light">{% t 'subtitle' %}</h2>
+            <h2 class="light">{{site.footwear.subtitle}}</h2>
             <br><br>
         </header>
     </div>

@@ -1,11 +1,10 @@
 ---
 layout: default
 title: Gifts
+titleTag: Regalos
 id: gifts
-languages:
-    - es
 subset: gifts
-permalink: /:language/catalogo/regalos
+permalink: /catalogo/regalos
 ---
 
 <div class="catalog gifts">
@@ -14,9 +13,9 @@ permalink: /:language/catalogo/regalos
         <header class="container center">
             <br><br><br>
             <h1 class="header lucemita">
-                {% t 'title' %}
+                {{site.gifts.title}}
             </h1>
-            <h2 class="light">{% t 'subtitle' %}</h2>
+            <h2 class="light">{{site.gifts.subtitle}}</h2>
             <br><br>
         </header>
     </div>

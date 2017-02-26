@@ -14,8 +14,6 @@ gem 'jekyll', '3.3.0'
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem 'minima'
 
-gem 'jekyll-language-plugin'
-
 gem 'uglifier'
 
 gem 'jekyll-assets'

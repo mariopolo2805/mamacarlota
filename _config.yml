@@ -1,12 +1,6 @@
 gems:
-    - jekyll-language-plugin
     - jekyll-assets
     - jekyll-sitemap
-
-language_data: data.lang.%%
-language_includes_dir: _i18n
-
-languages: ['es']
 
 exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'css', 'js', 'config.ru', 'vendor']
 
@@ -40,8 +34,100 @@ maps:
   google:
     api_key: AIzaSyArBBEqgoRS4NIKBoFzXqM775z5Fw5Znu8
 
-# Carousels
+# Texts
+
+main:
+  title: "MamaCarlota"
+  titleTag: "MamaCarlota"
+  description: "MamaCarlota - Tienda de bebés y niños en barrio Salamanca (Madrid)"
+  keywords: "mama carlota narvaez"
+terms:
+  title: "Aviso Legal"
+cookies:
+  title: Política de cookies
+  titleTag: "Política de cookies"
+
+home:
+  title: "MamaCarlota"
+  homeTitle: "Tienda de bebés y niños de 0 a 16 años"
+  description1: "Especialistas en ceremonia, comunión y bautizo. También confección a media. Complementos y calzado."
+  description2: "Más de 20 años de experiencia en moda (bebés, niños y ceremonia), nos hace ser una empresa familiar, diferente y original."
+  phone: "91 042 12 45"
+  title_tab: "INICIO"
+  url: "/"
+
+  presentation: "Ropa de ceremonia para niños en Madrid y confección de prendas de gran calidad"
+  p1: "En MamaCarlota todas las prendas son fabricadas en España con el máximo control y cuidado; cumpliendo nuestro objetivo y asegurando tanto calidad como acabados exquisitos."
+  p2: "Diseñamos desde vestidos para ceremonia o eventos, hasta prendas básicas e informales, siempre manteniendo nuestro estilo propio y cuidando hasta el mínimo detalle."
+  p3_1: "Te invitamos a que entres y veas toda la moda infantil que hemos seleccionado para ti, porque si buscas algo diferente, "
+  p3_2: "aquí"
+  p3_3: " lo vas a encontrar."
+
+  mapsTitle: "¿Dónde estamos ubicados?"
+  address: "Calle de Narváez 13, 28009 Madrid"
+
+catalog:
+  title_1: "Catálogo de "
+  title_2: "MamaCarlota"
+  subtitle: "En nuestro catálogo encontrará la más amplia variedad."
+
+  title_tab: "CATÁLOGO"
+  url: "/catalogo"
+
+  accessories:
+    title: "Accesorios"
+    url: "/accesorios"
+    image: "/images/accessories/accessories01.jpg"
+
+  babyboy:
+    title: "Bebé niño"
+    url: "/bebe-nino"
+    image: "/images/babyboy/babyboy01.jpg"
+
+  babygirl:
+    title: "Bebé niña"
+    url: "/bebe-nina"
+    image: "/images/babygirl/babygirl01.jpg"
+
+  boy:
+    title: "Niño"
+    url: "/nino"
+    image: "/images/boy/boy01.jpg"
+
+  christening:
+    title: "Bautizo"
+    url: "/bautizo"
+    image: "/images/christening/christening01.jpg"
+
+  communion:
+    title: "Comunión"
+    url: "/comunion"
+    image: "/images/communion/communion01.jpg"
+
+  footwear:
+    title: "Calzado"
+    url: "/calzado"
+    image: "/images/footwear/footwear01.jpg"
+
+  gifts:
+    title: "Regalos"
+    url: "/regalos"
+    image: "/images/gifts/gifts01.jpg"
+
+  girl:
+    title: "Niña"
+    url: "/nina"
+    image: "/images/girl/girl01.jpg"
+
+  wedding:
+    title: "Arras"
+    url: "/arras"
+    image: "/images/wedding/wedding01.jpg"
+
+# Sections
 accessories:
+  title: "Accesorios"
+  subtitle: "Diademas, turbantes, lazos, gomas de pelo y mucho más."
   folder: "/images/accessories/"
   images:
     - url: "accessories01.jpg"
@@ -50,6 +136,8 @@ accessories:
       name: "Accesorios 02"
 
 babyboy:
+  title: "Bebé niño"
+  subtitle: "De 0 a 3 años."
   folder: "/images/babyboy/"
   images:
     - url: "babyboy01.jpg"
@@ -60,6 +148,8 @@ babyboy:
       name: "Bebe Niño 03"
 
 babygirl:
+  title: "Bebé niña"
+  subtitle: "De 0 a 3 años."
   folder: "/images/babygirl/"
   images:
     - url: "babygirl01.jpg"
@@ -74,6 +164,8 @@ babygirl:
       name: "Bebe Niña 05"
 
 boy:
+  title: "Niño"
+  subtitle: "De 3 a 14 años."
   folder: "/images/boy/"
   images:
     - url: "boy01.jpg"
@@ -84,6 +176,8 @@ boy:
       name: "Niño 03"
 
 christening:
+  title: "Bautizo"
+  subtitle: "Conjuntos para niño y niña."
   folder: "/images/christening/"
   images:
     - url: "christening01.jpg"
@@ -102,6 +196,8 @@ christening:
       name: "Bautizo 07"
 
 communion:
+  title: "Comunión"
+  subtitle: "Trajes, vestidos, y coronas de flores."
   folder: "/images/communion/"
   images:
     - url: "communion01.jpg"
@@ -192,6 +288,8 @@ communion:
       name: "Comunión 43"
 
 footwear:
+  title: "Calzado"
+  subtitle: "Zapatos, calcetines y medias."
   folder: "/images/footwear/"
   images:
     - url: "footwear01.jpg"
@@ -210,6 +308,8 @@ footwear:
       name: "Calzado 07"
 
 gifts:
+  title: "Regalos"
+  subtitle: "Cestas personalizadas."
   folder: "/images/gifts/"
   images:
     - url: "gifts01.jpg"
@@ -224,6 +324,8 @@ gifts:
       name: "Regalos 05"
 
 girl:
+  title: "Niña"
+  subtitle: "De 3 a 14 años."
   folder: "/images/girl/"
   images:
     - url: "girl01.jpg"
@@ -246,6 +348,8 @@ girl:
       name: "Niña 09"
 
 wedding:
+  title: "Arras"
+  subtitle: "Vestidos y trajes."
   folder: "/images/wedding/"
   images:
     - url: "wedding01.jpg"

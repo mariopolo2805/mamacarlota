@@ -1,11 +1,10 @@
 ---
 layout: default
 title: Catalog
+titleTag: Catálogo
 id: catalog
-languages:
-    - es
 subset: catalog
-permalink: /:language/catalogo/
+permalink: /catalogo/
 ---
 
 <div class="catalog">
@@ -13,8 +12,8 @@ permalink: /:language/catalogo/
     <div class="section background-mask no-pad-bot white-text">
         <header class="container center">
             <br><br><br>
-            <h1 class="header">{% t 'title_1' %}<span class="lucemita">{% t 'title_2' %}</span></h1>
-            <h2 class="light">{% t 'subtitle' %}</h2>
+            <h1 class="header">{{site.catalog.title_1}}<span class="lucemita">{{site.catalog.title_2}}</span></h1>
+            <h2 class="light">{{site.catalog.subtitle}}</h2>
             <br><br>
         </header>
     </div>
@@ -23,102 +22,102 @@ permalink: /:language/catalogo/
         <br><br>
         <ul class="row center">
             <li class="col s12 m6 l4">
-                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}/{{ page.language }}{% t 'catalog.url' %}{% t 'christening.url' %}">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.catalog.christening.url}}">
                     <div class="card-image">
-                        <img src="{% t 'christening.image' %}" alt="christening">
+                        <img src="{{site.catalog.christening.image}}" alt="christening">
                     </div>
                     <div class="card-content flex-row">
-                        <span class="card-title grey-text text-darken-4">{% t 'christening.title' %}</span>
+                        <span class="card-title grey-text text-darken-4">{{site.catalog.christening.title}}</span>
                     </div>
                 </a>
             </li>
             <li class="col s12 m6 l4">
-                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}/{{ page.language }}{% t 'catalog.url' %}{% t 'wedding.url' %}">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.catalog.wedding.url}}">
                     <div class="card-image">
-                        <img src="{% t 'wedding.image' %}" alt="wedding">
+                        <img src="{{site.catalog.wedding.image}}" alt="wedding">
                     </div>
                     <div class="card-content flex-row">
-                        <span class="card-title grey-text text-darken-4">{% t 'wedding.title' %}</span>
+                        <span class="card-title grey-text text-darken-4">{{site.catalog.wedding.title}}</span>
                     </div>
                 </a>
             </li>
             <li class="col s12 m6 l4">
-                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}/{{ page.language }}{% t 'catalog.url' %}{% t 'communion.url' %}">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.catalog.communion.url}}">
                     <div class="card-image">
-                        <img src="{% t 'communion.image' %}" alt="communion">
+                        <img src="{{site.catalog.communion.image}}" alt="communion">
                     </div>
                     <div class="card-content flex-row">
-                        <span class="card-title grey-text text-darken-4">{% t 'communion.title' %}</span>
+                        <span class="card-title grey-text text-darken-4">{{site.catalog.communion.title}}</span>
                     </div>
                 </a>
             </li>
             <li class="col s12 m6 l3">
-                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}/{{ page.language }}{% t 'catalog.url' %}{% t 'babyboy.url' %}">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.catalog.babyboy.url}}">
                     <div class="card-image">
-                        <img src="{% t 'babyboy.image' %}" alt="babyboy">
+                        <img src="{{site.catalog.babyboy.image}}" alt="babyboy">
                     </div>
                     <div class="card-content flex-row">
-                        <span class="card-title grey-text text-darken-4">{% t 'babyboy.title' %}</span>
+                        <span class="card-title grey-text text-darken-4">{{site.catalog.babyboy.title}}</span>
                     </div>
                 </a>
             </li>
             <li class="col s12 m6 l3">
-                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}/{{ page.language }}{% t 'catalog.url' %}{% t 'babygirl.url' %}">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.catalog.babygirl.url}}">
                     <div class="card-image">
-                        <img src="{% t 'babygirl.image' %}" alt="babygirl">
+                        <img src="{{site.catalog.babygirl.image}}" alt="babygirl">
                     </div>
                     <div class="card-content flex-row">
-                        <span class="card-title grey-text text-darken-4">{% t 'babygirl.title' %}</span>
+                        <span class="card-title grey-text text-darken-4">{{site.catalog.babygirl.title}}</span>
                     </div>
                 </a>
             </li>
             <li class="col s12 m6 l3">
-                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}/{{ page.language }}{% t 'catalog.url' %}{% t 'boy.url' %}">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.catalog.boy.url}}">
                     <div class="card-image">
-                        <img src="{% t 'boy.image' %}" alt="boy">
+                        <img src="{{site.catalog.boy.image}}" alt="boy">
                     </div>
                     <div class="card-content flex-row">
-                        <span class="card-title grey-text text-darken-4">{% t 'boy.title' %}</span>
+                        <span class="card-title grey-text text-darken-4">{{site.catalog.boy.title}}</span>
                     </div>
                 </a>
             </li>
             <li class="col s12 m6 l3">
-                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}/{{ page.language }}{% t 'catalog.url' %}{% t 'girl.url' %}">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.catalog.girl.url}}">
                     <div class="card-image">
-                        <img src="{% t 'girl.image' %}" alt="girl">
+                        <img src="{{site.catalog.girl.image}}" alt="girl">
                     </div>
                     <div class="card-content flex-row">
-                        <span class="card-title grey-text text-darken-4">{% t 'girl.title' %}</span>
+                        <span class="card-title grey-text text-darken-4">{{site.catalog.girl.title}}</span>
                     </div>
                 </a>
             </li>
             <li class="col s12 m6 l4">
-                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}/{{ page.language }}{% t 'catalog.url' %}{% t 'accessories.url' %}">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.catalog.accessories.url}}">
                     <div class="card-image">
-                        <img src="{% t 'accessories.image' %}" alt="accessories">
+                        <img src="{{site.catalog.accessories.image}}" alt="accessories">
                     </div>
                     <div class="card-content flex-row">
-                        <span class="card-title grey-text text-darken-4">{% t 'accessories.title' %}</span>
+                        <span class="card-title grey-text text-darken-4">{{site.catalog.accessories.title}}</span>
                     </div>
                 </a>
             </li>
             <li class="col s12 m6 l4">
-                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}/{{ page.language }}{% t 'catalog.url' %}{% t 'footwear.url' %}">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.catalog.footwear.url}}">
                     <div class="card-image">
-                        <img src="{% t 'footwear.image' %}" alt="footwear">
+                        <img src="{{site.catalog.footwear.image}}" alt="footwear">
                     </div>
                     <div class="card-content flex-row">
-                        <span class="card-title grey-text text-darken-4">{% t 'footwear.title' %}</span>
+                        <span class="card-title grey-text text-darken-4">{{site.catalog.footwear.title}}</span>
                     </div>
                 </a>
             </li>
             <li class="col s12 m6 l4">
-                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}/{{ page.language }}{% t 'catalog.url' %}{% t 'gifts.url' %}">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.catalog.gifts.url}}">
                     <div class="card-image">
-                        <img src="{% t 'gifts.image' %}" alt="gifts">
+                        <img src="{{site.catalog.gifts.image}}" alt="gifts">
                     </div>
                     <div class="card-content flex-row">
-                        <span class="card-title grey-text text-darken-4">{% t 'gifts.title' %}</span>
+                        <span class="card-title grey-text text-darken-4">{{site.catalog.gifts.title}}</span>
                     </div>
                 </a>
             </li>
