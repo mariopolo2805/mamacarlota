@@ -146,6 +146,12 @@ babyboy:
       name: "Bebe Niño 02"
     - url: "babyboy03.jpg"
       name: "Bebe Niño 03"
+    - url: "babyboy04.jpg"
+      name: "Bebe Niño 04"
+    - url: "babyboy05.jpg"
+      name: "Bebe Niño 05"
+    - url: "babyboy06.jpg"
+      name: "Bebe Niño 06"
 
 babygirl:
   title: "Bebé niña"
@@ -162,6 +168,16 @@ babygirl:
       name: "Bebe Niña 04"
     - url: "babygirl05.jpg"
       name: "Bebe Niña 05"
+    - url: "babygirl06.jpg"
+      name: "Bebe Niña 06"
+    - url: "babygirl07.jpg"
+      name: "Bebe Niña 07"
+    - url: "babygirl08.jpg"
+      name: "Bebe Niña 08"
+    - url: "babygirl09.jpg"
+      name: "Bebe Niña 09"
+    - url: "babygirl10.jpg"
+      name: "Bebe Niña 10"
 
 boy:
   title: "Niño"
@@ -368,6 +384,12 @@ girl:
       name: "Niña 17"
     - url: "girl18.png"
       name: "Niña 18"
+    - url: "girl19.jpg"
+      name: "Niña 19"
+    - url: "girl20.jpg"
+      name: "Niña 20"
+    - url: "girl21.jpg"
+      name: "Niña 21"
 
 wedding:
   title: "Arras"
@@ -410,3 +432,9 @@ wedding:
       name: "Arras 17"
     - url: "wedding18.jpg"
       name: "Arras 18"
+    - url: "wedding19.jpg"
+      name: "Arras 19"
+    - url: "wedding20.jpg"
+      name: "Arras 20"
+    - url: "wedding21.jpg"
+      name: "Arras 21"
