@@ -406,14 +406,12 @@ girl:
       name: "Niña 23"
     - url: "girl24.jpg"
       name: "Niña 24"
-    - url: "girl25.png"
+    - url: "girl25.jpg"
       name: "Niña 25"
     - url: "girl26.jpg"
       name: "Niña 26"
     - url: "girl27.jpg"
       name: "Niña 27"
-    - url: "girl28.jpg"
-      name: "Niña 28"
 
 wedding:
   title: "Arras"
