@@ -7,6 +7,9 @@
 <loc>/catalogo/bebe-nino</loc>
 </url>
 <url>
+<loc>/catalogo/canastilla-puericultura</loc>
+</url>
+<url>
 <loc>/catalogo/bebe-nina</loc>
 </url>
 <url>
@@ -19,7 +22,10 @@
 <loc>/catalogo/bautizo</loc>
 </url>
 <url>
-<loc>/catalogo/comunion</loc>
+<loc>/catalogo/comunion-nino</loc>
+</url>
+<url>
+<loc>/catalogo/comunion-nina</loc>
 </url>
 <url>
 <loc>/cookies/</loc>
