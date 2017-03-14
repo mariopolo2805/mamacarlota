@@ -75,8 +75,5 @@ DEPENDENCIES
   rack-contrib
   uglifier
 
-RUBY VERSION
-   ruby 2.0.0p648
-
 BUNDLED WITH
    1.13.6
