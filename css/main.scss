@@ -49,11 +49,23 @@ a {
 }
 
 a[href^="tel:"] {
+    @include display-flex;
+    @include align-items(center);
     color: white;
     text-decoration: none;
 }
 a[href^="tel:"]:before {
-    content: "\260e";
+    content: url("/images/phone.png"); // "\260e";
+    margin-right: 0.5em;
+}
+
+.open-hours {
+    @include display-flex;
+    @include align-items(center);
+}
+
+.open-hours:before {
+    content: url("/images/clock.png");
     margin-right: 0.5em;
 }
 
