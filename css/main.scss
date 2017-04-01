@@ -170,6 +170,10 @@ table.collapse {
     @include flex-direction(row);
     @include justify-content(center);
     @include align-items(center);
+
+    &.space-between {
+        @include justify-content(space-between);
+    }
 }
 
 // MEDIA Small Only
@@ -205,9 +209,17 @@ table.collapse {
     cursor: pointer;
 }
 
+.opacity-3 {
+    opacity: 0.3;
+}
+
 // CATALOG
 
 .catalog {
+
+    .carousel {
+        margin-bottom: 0;
+    }
 
     .carousel .carousel-item {
         text-align: center;
