@@ -4,6 +4,9 @@
 <loc>/catalogo/accesorios</loc>
 </url>
 <url>
+<loc>/catalogo/bebe-nino</loc>
+</url>
+<url>
 <loc>/catalogo/canastilla-puericultura</loc>
 </url>
 <url>
@@ -41,9 +44,5 @@
 </url>
 <url>
 <loc>/catalogo/arras</loc>
-</url>
-<url>
-<loc>/babyboy.html</loc>
-<lastmod>2017-04-24T16:16:42+02:00</lastmod>
 </url>
 </urlset>
