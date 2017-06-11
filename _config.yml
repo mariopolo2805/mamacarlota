@@ -130,6 +130,12 @@ catalog:
     url: "/nina"
     image: "/images/girl/girl.jpg"
 
+  summerdays:
+    title: "Summer Days"
+    url: "/summer-days"
+    image: "/images/summerdays/summerdays.jpg"
+    image2: "/images/summerdays/summerdays01.jpg"
+
   swimwear:
     title: "Ropa de baño"
     url: "/ropa-de-bano"
@@ -801,6 +807,20 @@ girl:
       name: "Niña 47"
     - url: "girl01.jpg"
       name: "Niña 48"
+
+summerdays:
+  title: "Summer Days"
+  subtitle: "30% dto. en artículos seleccionados hasta 15 de Junio."
+  folder: "/images/summerdays/"
+  images:
+    - url: "summerdays04.jpg"
+      name: "Summer Days 01"
+    - url: "summerdays03.jpg"
+      name: "Summer Days 02"
+    - url: "summerdays02.jpg"
+      name: "Summer Days 03"
+    - url: "summerdays01.jpg"
+      name: "Summer Days 04"
 
 swimwear:
   title: "R opa de baño"
