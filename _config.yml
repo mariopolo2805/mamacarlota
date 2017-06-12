@@ -130,6 +130,11 @@ catalog:
     url: "/nina"
     image: "/images/girl/girl.jpg"
 
+  pajamas:
+    title: "Pijamas"
+    url: "/pijamas"
+    image: "/images/pajamas/pajamas.jpg"
+
   summerdays:
     title: "Summer Days"
     url: "/summer-days"
@@ -808,6 +813,18 @@ girl:
     - url: "girl01.jpg"
       name: "Niña 48"
 
+pajamas:
+  title: "Pijamas"
+  subtitle: "Lo mejor para dormir cómodo."
+  folder: "/images/pajamas/"
+  images:
+    - url: "pajamas.jpg"
+      name: "Pijamas 01"
+    - url: "pajamas02.jpg"
+      name: "Pijamas 02"
+    - url: "pajamas01.jpg"
+      name: "Pijamas 03"
+
 summerdays:
   title: "Summer Days"
   subtitle: "30% dto. en artículos seleccionados hasta 15 de Junio."
@@ -829,24 +846,32 @@ swimwear:
   images:
     - url: "swimwear.jpg"
       name: "Ropa de baño 01"
-    - url: "swimwear09.jpg"
+    - url: "swimwear13.jpg"
       name: "Ropa de baño 02"
-    - url: "swimwear08.jpg"
+    - url: "swimwear12.jpg"
       name: "Ropa de baño 03"
-    - url: "swimwear07.jpg"
+    - url: "swimwear11.jpg"
       name: "Ropa de baño 04"
-    - url: "swimwear06.jpg"
+    - url: "swimwear10.jpg"
       name: "Ropa de baño 05"
-    - url: "swimwear05.jpg"
+    - url: "swimwear09.jpg"
       name: "Ropa de baño 06"
-    - url: "swimwear04.jpg"
+    - url: "swimwear08.jpg"
       name: "Ropa de baño 07"
-    - url: "swimwear03.jpg"
+    - url: "swimwear07.jpg"
       name: "Ropa de baño 08"
-    - url: "swimwear02.jpg"
+    - url: "swimwear06.jpg"
       name: "Ropa de baño 09"
-    - url: "swimwear01.jpg"
+    - url: "swimwear05.jpg"
       name: "Ropa de baño 10"
+    - url: "swimwear04.jpg"
+      name: "Ropa de baño 11"
+    - url: "swimwear03.jpg"
+      name: "Ropa de baño 12"
+    - url: "swimwear02.jpg"
+      name: "Ropa de baño 13"
+    - url: "swimwear01.jpg"
+      name: "Ropa de baño 14"
 
 wedding:
   title: "Arras"
