@@ -24,11 +24,13 @@ permalink: /catalogo/nina
         <div class="container">
             <div class="row">
                 <div class="carousel">
-                    {% for img in site.girl.images %}
-                        <div class="carousel-item">
-                            <img src="{{site.girl.folder}}{{img.url}}" alt="img-{{img.url}}">
-                            <span>{{img.name}}</span>
-                        </div>
+                    {% for image in site.static_files %}
+                        {% if image.path contains 'images/girl' %}
+                            <div class="carousel-item">
+                                <img src="{{ site.baseurl }}{{ image.path }}" alt="img-{{img.url}}">
+                                <span>{{site.ref}}: {{forloop.index}}</i></span>
+                            </div>
+                        {% endif %}
                     {% endfor %}
                 </div>
                 <div class="flex-row space-between hide-on-med-and-up">

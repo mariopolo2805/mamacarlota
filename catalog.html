@@ -20,155 +20,165 @@ permalink: /catalogo/
 
     <div class="section red darken-1">
         <div class="row container center">
-            <h2 class="header white-text lucemita">Rebajas</h2>
-            <div class="white-text summer f-size-small">Hasta el</div>
-            <span class="white-text summer f-size-large">50</span>
-            <span class="white-text lucemita f-size-big">%</span>
-            <span class="white-text lucemita f-size-tiny">dto.</span>
-            <div class="white-text summer f-size-tiny">Excepto artículos de continuidad y nueva colección</div>
+            <h2 class="header white-text lucemita">{{site.promo.title}}</h2>
+            <div class="white-text summer f-size-small">{{site.promo.subtitle_1}}</div>
+            <span class="white-text summer f-size-large">{{site.promo.subtitle_2}}</span>
+            <span class="white-text lucemita f-size-big">{{site.promo.subtitle_3}}</span>
+            <span class="white-text lucemita f-size-tiny">{{site.promo.subtitle_4}}</span>
+            <div class="white-text summer f-size-tiny">{{site.promo.advice}}</div>
         </div>
     </div>
 
     <div class="container">
         <br><br>
         <ul class="row center">
-            <li class="col s12 m6 l3">
-                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.catalog.swimwear.url}}">
+            <li class="col s12 m6 l4">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.newcollection.url}}">
                     <div class="card-image">
-                        <img src="{{site.catalog.swimwear.image}}" alt="swimwear">
+                        <img src="{{site.newcollection.image}}" alt="newcollection">
                     </div>
                     <div class="card-content flex-row">
-                        <span class="card-title grey-text text-darken-4">{{site.catalog.swimwear.title}}</span>
-                    </div>
-                </a>
-            </li>
-            <li class="col s12 m6 l3">
-                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.catalog.pajamas.url}}">
-                    <div class="card-image">
-                        <img src="{{site.catalog.pajamas.image}}" alt="pajamas">
-                    </div>
-                    <div class="card-content flex-row">
-                        <span class="card-title grey-text text-darken-4">{{site.catalog.pajamas.title}}</span>
-                    </div>
-                </a>
-            </li>
-            <li class="col s12 m6 l3">
-                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.catalog.footwear.url}}">
-                    <div class="card-image">
-                        <img src="{{site.catalog.footwear.image}}" alt="footwear">
-                    </div>
-                    <div class="card-content flex-row">
-                        <span class="card-title grey-text text-darken-4">{{site.catalog.footwear.title}}</span>
-                    </div>
-                </a>
-            </li>
-            <li class="col s12 m6 l3">
-                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.catalog.gifts.url}}">
-                    <div class="card-image">
-                        <img src="{{site.catalog.gifts.image}}" alt="gifts">
-                    </div>
-                    <div class="card-content flex-row">
-                        <span class="card-title grey-text text-darken-4">{{site.catalog.gifts.title}}</span>
-                    </div>
-                </a>
-            </li>
-            <li class="col s12 m6 l3">
-                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.catalog.babyboy.url}}">
-                    <div class="card-image">
-                        <img src="{{site.catalog.babyboy.image}}" alt="babyboy">
-                    </div>
-                    <div class="card-content flex-row">
-                        <span class="card-title grey-text text-darken-4">{{site.catalog.babyboy.title}}</span>
-                    </div>
-                </a>
-            </li>
-            <li class="col s12 m6 l3">
-                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.catalog.babygirl.url}}">
-                    <div class="card-image">
-                        <img src="{{site.catalog.babygirl.image}}" alt="babygirl">
-                    </div>
-                    <div class="card-content flex-row">
-                        <span class="card-title grey-text text-darken-4">{{site.catalog.babygirl.title}}</span>
-                    </div>
-                </a>
-            </li>
-            <li class="col s12 m6 l3">
-                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.catalog.boy.url}}">
-                    <div class="card-image">
-                        <img src="{{site.catalog.boy.image}}" alt="boy">
-                    </div>
-                    <div class="card-content flex-row">
-                        <span class="card-title grey-text text-darken-4">{{site.catalog.boy.title}}</span>
-                    </div>
-                </a>
-            </li>
-            <li class="col s12 m6 l3">
-                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.catalog.girl.url}}">
-                    <div class="card-image">
-                        <img src="{{site.catalog.girl.image}}" alt="girl">
-                    </div>
-                    <div class="card-content flex-row">
-                        <span class="card-title grey-text text-darken-4">{{site.catalog.girl.title}}</span>
+                        <span class="card-title grey-text text-darken-4">{{site.newcollection.title}}</span>
                     </div>
                 </a>
             </li>
             <li class="col s12 m6 l4">
-                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.catalog.babycare.url}}">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.swimwear.url}}">
                     <div class="card-image">
-                        <img src="{{site.catalog.babycare.image}}" alt="babycare">
+                        <img src="{{site.swimwear.image}}" alt="swimwear">
                     </div>
                     <div class="card-content flex-row">
-                        <span class="card-title grey-text text-darken-4">{{site.catalog.babycare.title}}</span>
+                        <span class="card-title grey-text text-darken-4">{{site.swimwear.title}}</span>
                     </div>
                 </a>
             </li>
             <li class="col s12 m6 l4">
-                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.catalog.christening.url}}">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.pajamas.url}}">
                     <div class="card-image">
-                        <img src="{{site.catalog.christening.image}}" alt="christening">
+                        <img src="{{site.pajamas.image}}" alt="pajamas">
                     </div>
                     <div class="card-content flex-row">
-                        <span class="card-title grey-text text-darken-4">{{site.catalog.christening.title}}</span>
+                        <span class="card-title grey-text text-darken-4">{{site.pajamas.title}}</span>
                     </div>
                 </a>
             </li>
             <li class="col s12 m6 l4">
-                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.catalog.accessories.url}}">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.footwear.url}}">
                     <div class="card-image">
-                        <img src="{{site.catalog.accessories.image}}" alt="accessories">
+                        <img src="{{site.footwear.image}}" alt="footwear">
                     </div>
                     <div class="card-content flex-row">
-                        <span class="card-title grey-text text-darken-4">{{site.catalog.accessories.title}}</span>
+                        <span class="card-title grey-text text-darken-4">{{site.footwear.title}}</span>
                     </div>
                 </a>
             </li>
             <li class="col s12 m6 l4">
-                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.catalog.wedding.url}}">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.gifts.url}}">
                     <div class="card-image">
-                        <img src="{{site.catalog.wedding.image}}" alt="wedding">
+                        <img src="{{site.gifts.image}}" alt="gifts">
                     </div>
                     <div class="card-content flex-row">
-                        <span class="card-title grey-text text-darken-4">{{site.catalog.wedding.title}}</span>
+                        <span class="card-title grey-text text-darken-4">{{site.gifts.title}}</span>
                     </div>
                 </a>
             </li>
             <li class="col s12 m6 l4">
-                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.catalog.communionboy.url}}">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.accessories.url}}">
                     <div class="card-image">
-                        <img src="{{site.catalog.communionboy.image}}" alt="communionboy">
+                        <img src="{{site.accessories.image}}" alt="accessories">
                     </div>
                     <div class="card-content flex-row">
-                        <span class="card-title grey-text text-darken-4">{{site.catalog.communionboy.title}}</span>
+                        <span class="card-title grey-text text-darken-4">{{site.accessories.title}}</span>
                     </div>
                 </a>
             </li>
             <li class="col s12 m6 l4">
-                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.catalog.communiongirl.url}}">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.babyboy.url}}">
                     <div class="card-image">
-                        <img src="{{site.catalog.communiongirl.image}}" alt="communiongirl">
+                        <img src="{{site.babyboy.image}}" alt="babyboy">
                     </div>
                     <div class="card-content flex-row">
-                        <span class="card-title grey-text text-darken-4">{{site.catalog.communiongirl.title}}</span>
+                        <span class="card-title grey-text text-darken-4">{{site.babyboy.title}}</span>
+                    </div>
+                </a>
+            </li>
+            <li class="col s12 m6 l4">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.babygirl.url}}">
+                    <div class="card-image">
+                        <img src="{{site.babygirl.image}}" alt="babygirl">
+                    </div>
+                    <div class="card-content flex-row">
+                        <span class="card-title grey-text text-darken-4">{{site.babygirl.title}}</span>
+                    </div>
+                </a>
+            </li>
+            <li class="col s12 m6 l4">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.babycare.url}}">
+                    <div class="card-image">
+                        <img src="{{site.babycare.image}}" alt="babycare">
+                    </div>
+                    <div class="card-content flex-row">
+                        <span class="card-title grey-text text-darken-4">{{site.babycare.title}}</span>
+                    </div>
+                </a>
+            </li>
+            <li class="col s12 m6 l4">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.boy.url}}">
+                    <div class="card-image">
+                        <img src="{{site.boy.image}}" alt="boy">
+                    </div>
+                    <div class="card-content flex-row">
+                        <span class="card-title grey-text text-darken-4">{{site.boy.title}}</span>
+                    </div>
+                </a>
+            </li>
+            <li class="col s12 m6 l4">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.girl.url}}">
+                    <div class="card-image">
+                        <img src="{{site.girl.image}}" alt="girl">
+                    </div>
+                    <div class="card-content flex-row">
+                        <span class="card-title grey-text text-darken-4">{{site.girl.title}}</span>
+                    </div>
+                </a>
+            </li>
+            <li class="col s12 m6 l4">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.christening.url}}">
+                    <div class="card-image">
+                        <img src="{{site.christening.image}}" alt="christening">
+                    </div>
+                    <div class="card-content flex-row">
+                        <span class="card-title grey-text text-darken-4">{{site.christening.title}}</span>
+                    </div>
+                </a>
+            </li>
+            <li class="col s12 m6 l4">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.wedding.url}}">
+                    <div class="card-image">
+                        <img src="{{site.wedding.image}}" alt="wedding">
+                    </div>
+                    <div class="card-content flex-row">
+                        <span class="card-title grey-text text-darken-4">{{site.wedding.title}}</span>
+                    </div>
+                </a>
+            </li>
+            <li class="col s12 m6 l4">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.communionboy.url}}">
+                    <div class="card-image">
+                        <img src="{{site.communionboy.image}}" alt="communionboy">
+                    </div>
+                    <div class="card-content flex-row">
+                        <span class="card-title grey-text text-darken-4">{{site.communionboy.title}}</span>
+                    </div>
+                </a>
+            </li>
+            <li class="col s12 m6 l4">
+                <a class="card small hoverable waves-effect waves-light" href="{{ site.baseurl }}{{site.catalog.url}}{{site.communiongirl.url}}">
+                    <div class="card-image">
+                        <img src="{{site.communiongirl.image}}" alt="communiongirl">
+                    </div>
+                    <div class="card-content flex-row">
+                        <span class="card-title grey-text text-darken-4">{{site.communiongirl.title}}</span>
                     </div>
                 </a>
             </li>
