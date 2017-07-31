@@ -212,12 +212,9 @@ table.collapse {
     background-color: $backdropSummer;
 }
 
-.clickable {
-    cursor: pointer;
-}
-
-.opacity-3 {
-    opacity: 0.3;
+.picture {
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 // CATALOG
@@ -258,93 +255,55 @@ table.collapse {
     }
 }
 
-// Swipe animations
-@-webkit-keyframes ani-left {
-    0% { margin-left: 1px; }
-    10% { margin-left: 1.5px;; }
-    20% { margin-left: 2px;; }
-    30% { margin-left: 2.5px;; }
-    40% { margin-left: 3px;; }
-    50% { margin-left: 3.5px;; }
-    60% { margin-left: 3px; }
-    70% { margin-left: 2.5px; }
-    80% { margin-left: 2px; }
-    90% { margin-left: 1.5px; }
-    100% { margin-left: 1px; }
-}
-@-moz-keyframes ani-left {
-    0% { margin-left: 1px; }
-    10% { margin-left: 1.5px;; }
-    20% { margin-left: 2px;; }
-    30% { margin-left: 2.5px;; }
-    40% { margin-left: 3px;; }
-    50% { margin-left: 3.5px;; }
-    60% { margin-left: 3px; }
-    70% { margin-left: 2.5px; }
-    80% { margin-left: 2px; }
-    90% { margin-left: 1.5px; }
-    100% { margin-left: 1px; }
-}
-@keyframes ani-left {
-    0% { margin-left: 1px; }
-    10% { margin-left: 1.5px;; }
-    20% { margin-left: 2px;; }
-    30% { margin-left: 2.5px;; }
-    40% { margin-left: 3px;; }
-    50% { margin-left: 3.5px;; }
-    60% { margin-left: 3px; }
-    70% { margin-left: 2.5px; }
-    80% { margin-left: 2px; }
-    90% { margin-left: 1.5px; }
-    100% { margin-left: 1px; }
-}
-.move-left {
-    -webkit-animation: ani-left 1s ease-in-out 5;
-    -moz-animation: ani-left 1s ease-in-out 5;
-    animation: ani-left 1s ease-in-out 5;
+// Cards-container
+
+// Media Query Ranges
+$small-screen-up: 601px !default;
+$medium-screen-up: 993px !default;
+$large-screen-up: 1281px !default;
+$small-screen: 600px !default;
+$medium-screen: 992px !default;
+$large-screen: 1280px !default;
+
+$medium-and-up: "only screen and (min-width : #{$small-screen-up})" !default;
+$large-and-up: "only screen and (min-width : #{$medium-screen-up})" !default;
+$xlarge-and-up: "only screen and (min-width : #{$large-screen-up})" !default;
+$small-and-down: "only screen and (max-width : #{$small-screen})" !default;
+$medium-and-down: "only screen and (max-width : #{$medium-screen})" !default;
+$large-and-down: "only screen and (max-width : #{$large-screen})" !default;
+$large-only: "only screen and (min-width : #{$medium-screen-up}) and (max-width : #{$large-screen})" !default;
+
+@mixin column-count($ct) {
+  -webkit-column-count: $ct;
+  -moz-column-count: $ct;
+  column-count: $ct;
 }
 
-@-webkit-keyframes ani-right {
-    0% { margin-right: 1px; }
-    10% { margin-right: 1.5px;; }
-    20% { margin-right: 2px;; }
-    30% { margin-right: 2.5px;; }
-    40% { margin-right: 3px;; }
-    50% { margin-right: 3.5px;; }
-    60% { margin-right: 3px; }
-    70% { margin-right: 2.5px; }
-    80% { margin-right: 2px; }
-    90% { margin-right: 1.5px; }
-    100% { margin-right: 1px; }
+.cards-container {
+  column-break-inside: avoid;
+  .card {
+    display: inline-block;
+    overflow: visible;
+  }
 }
-@-moz-keyframes ani-left {
-    0% { margin-right: 1px; }
-    10% { margin-right: 1.5px;; }
-    20% { margin-right: 2px;; }
-    30% { margin-right: 2.5px;; }
-    40% { margin-right: 3px;; }
-    50% { margin-right: 3.5px;; }
-    60% { margin-right: 3px; }
-    70% { margin-right: 2.5px; }
-    80% { margin-right: 2px; }
-    90% { margin-right: 1.5px; }
-    100% { margin-right: 1px; }
+
+@media #{$small-and-down} {
+  .cards-container {
+    @include column-count(1);
+  }
 }
-@keyframes ani-right {
-    0% { margin-right: 1px; }
-    10% { margin-right: 1.5px;; }
-    20% { margin-right: 2px;; }
-    30% { margin-right: 2.5px;; }
-    40% { margin-right: 3px;; }
-    50% { margin-right: 3.5px;; }
-    60% { margin-right: 3px; }
-    70% { margin-right: 2.5px; }
-    80% { margin-right: 2px; }
-    90% { margin-right: 1.5px; }
-    100% { margin-right: 1px; }
+@media #{$medium-and-up} {
+  .cards-container {
+    @include column-count(2);
+  }
 }
-.move-right {
-    -webkit-animation: ani-right 1s ease-in-out 5;
-    -moz-animation: ani-right 1s ease-in-out 5;
-    animation: ani-right 1s ease-in-out 5;
+@media #{$large-and-up} {
+  .cards-container {
+    @include column-count(3);
+  }
+}
+@media #{$xlarge-and-up} {
+  .cards-container {
+    @include column-count(4);
+  }
 }
