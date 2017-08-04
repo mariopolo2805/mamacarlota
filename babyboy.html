@@ -20,6 +20,11 @@ permalink: /catalogo/bebe-nino
         </header>
     </div>
 
+    <div class="mamacarlota-modal" onclick="closeModal()">
+        <img class="mamacarlota-modal-content">
+        <div class="mamacarlota-modal-caption"></div>
+    </div>
+
     <div class="section no-pad-bot">
         <div class="container">
             <div class="row center">
@@ -28,7 +33,7 @@ permalink: /catalogo/bebe-nino
                         {% if image.path contains 'images/babyboy' %}
                             <div class="card picture">
                                 <div class="card-image">
-                                    <img class="materialboxed" src="{{ site.baseurl }}{{ image.path }}" alt="img-{{img.url}}">
+                                    <img class="mamacarlota-img" src="{{ site.baseurl }}{{ image.path }}" alt="{{site.ref}}: {{forloop.index}}" onclick="openModal(this)">
                                 </div>
                             </div>
                             <div>{{site.ref}}: {{forloop.index}}</div>
