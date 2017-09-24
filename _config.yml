@@ -75,17 +75,17 @@ catalog:
   title_tab: 'CATÁLOGO'
   url: '/catalogo'
 
-promo:
-  title: 'ReBaJaS'
-  subtitle_1: 'Hasta el'
-  subtitle_2: '50'
-  subtitle_3: '%'
-  subtitle_4: 'dto.'
-  advice: 'Excepto artículos de continuidad y nueva colección'
+# promo:
+#   title: 'ReBaJaS'
+#   subtitle_1: 'Hasta el'
+#   subtitle_2: '50'
+#   subtitle_3: '%'
+#   subtitle_4: 'dto.'
+#   advice: 'Excepto artículos de continuidad y nueva colección'
 
-birthday:
-  title: '¡ Estamos de Aniversario !'
-  subtitle: 'Por muchos años más como este'
+# birthday:
+#   title: '¡ Estamos de Aniversario !'
+#   subtitle: 'Por muchos años más como este'
 
 # Sections
 
