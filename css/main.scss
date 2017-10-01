@@ -70,6 +70,19 @@ a[href^="tel:"]:before {
     margin-right: 0.5em;
 }
 
+.side-nav {
+    a.subdirectory {
+        @include display-flex;
+        @include align-items(center);
+    }
+
+    a.subdirectory:before {
+        content: url("/images/subdirectory.png");
+        margin-right: 0.5em;
+        height: 40px;
+    }
+}
+
 footer {
     .row {
         margin-bottom: 0;
