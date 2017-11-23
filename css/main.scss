@@ -24,6 +24,10 @@ main {
     @include flex(1 0 auto);
 }
 
+.bg-custom-black {
+    background-color: #1c1b1c;
+}
+
 .brand-logo {
     width: 260px;
     height: 50px;
