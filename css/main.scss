@@ -74,6 +74,16 @@ a[href^="tel:"]:before {
     margin-right: 0.5em;
 }
 
+.christmas {
+    @include display-flex;
+    @include align-items(center);
+}
+
+.christmas:before {
+    content: url("/images/pine-tree.png");
+    margin-right: 0.5em;
+}
+
 .side-nav {
     a.subdirectory {
         @include display-flex;
