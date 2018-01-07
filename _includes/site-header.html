@@ -26,6 +26,12 @@
                 <li {% if current == 'newcollection' %} class="active" {% endif %}>
                     <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.newcollection.url}}">{{site.newcollection.title}}</a>
                 </li>
+                <li {% if current == 'communionboy' %} class="active" {% endif %}>
+                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.communionboy.url}}">{{site.communionboy.title}}</a>
+                </li>
+                <li {% if current == 'communiongirl' %} class="active" {% endif %}>
+                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.communiongirl.url}}">{{site.communiongirl.title}}</a>
+                </li>
                 <li {% if current == 'footwear' %} class="active" {% endif %}>
                     <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.footwear.url}}">{{site.footwear.title}}</a>
                 </li>
@@ -58,12 +64,6 @@
                 </li>
                 <li {% if current == 'wedding' %} class="active" {% endif %}>
                     <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.wedding.url}}">{{site.wedding.title}}</a>
-                </li>
-                <li {% if current == 'communionboy' %} class="active" {% endif %}>
-                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.communionboy.url}}">{{site.communionboy.title}}</a>
-                </li>
-                <li {% if current == 'communiongirl' %} class="active" {% endif %}>
-                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.communiongirl.url}}">{{site.communiongirl.title}}</a>
                 </li>
                 <li {% if current == 'swimwear' %} class="active" {% endif %}>
                     <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.swimwear.url}}">{{site.swimwear.title}}</a>
