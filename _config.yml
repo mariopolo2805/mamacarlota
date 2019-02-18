@@ -168,9 +168,9 @@ swimwear:
   image: '/images/swimwear/0000.jpg'
 
 wedding:
-  title: 'Arras'
+  title: 'Ceremonia y Arras'
   subtitle: 'Vestidos y trajes.'
-  url: '/arras'
+  url: '/ceremonia-arras'
   image: '/images/wedding/0000.jpg'
 
 help:
