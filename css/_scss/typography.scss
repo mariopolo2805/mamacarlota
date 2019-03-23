@@ -1,3 +1,5 @@
+// Headers
+
 h1 {
     font-size: 3.2rem;
 }
@@ -38,16 +40,40 @@ span {
     text-align: justify;
 }
 
-@import url('https://www.fontify.me/wf/53dae06d71df5264fb7f95151d384135');
+
+// Fonts
+
+@mixin font($font-family, $font-file) {
+    @font-face {
+        font-family: $font-family;
+        src: url($font-file+'.eot');
+        src: url($font-file+'.eot?#iefix') format('embedded-opentype'),
+        url($font-file+'.woff') format('woff'),
+        url($font-file+'.ttf') format('truetype'),
+        url($font-file+'.svg#aller') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+
+@include font('Lucemita-Regular', 'fonts/Lucemita-Regular');
 .lucemita {
-    font-family: font93887;
+    font-family: Lucemita-Regular;
     font-size: 5rem;
 }
+
+// @import url('https://www.fontify.me/wf/53dae06d71df5264fb7f95151d384135');
+// .lucemita {
+//     font-family: font93887;
+//     font-size: 5rem;
+// }
 
 @import url('https://www.fontify.me/wf/838ab9520154c6d5a18272090e390f65');
 .summer { // baby-kruffy
     font-family: font101943;
 }
+
+// Sizes
 
 .f-size-tiny {
     font-size: 1.2rem
