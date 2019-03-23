@@ -1,10 +1,8 @@
-gems:
-    - jekyll-assets
-    - jekyll-sitemap
+plugins:
+  - jekyll-assets
+  - jekyll-sitemap
 
 exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'css', 'js', 'config.ru', 'vendor']
-
-include: ['_i18n']
 
 sass:
   sass_dir: css/_scss

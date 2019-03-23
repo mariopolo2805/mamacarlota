@@ -9,17 +9,17 @@ ruby "2.5.1"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "bundler", "1.16.2"
-gem 'jekyll', '3.3.1'
+gem "bundler", "1.16.3"
+gem 'jekyll', '3.8.5'
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem 'minima'
 
 gem 'uglifier'
 
-gem 'jekyll-assets'
+gem 'jekyll-assets', '2.3.2'
 
 gem 'jekyll-sitemap'
 
-gem 'rack-contrib'
+gem 'rack-contrib', '1.7.0'
 gem 'puma'
