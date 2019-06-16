@@ -4,7 +4,6 @@
 
 
 $backdrop: rgba(color("cyan", "darken-3"), 0.50);
-$backdropSummer: rgba(color("pink", "base"), 0.50);
 
 #map {
     height: 400px;
@@ -100,6 +99,10 @@ a[href^="tel:"]:before {
 footer {
     .row {
         margin-bottom: 0;
+    }
+
+    .instagram, .facebook {
+        margin-right: 3px;
     }
 }
 
@@ -231,12 +234,6 @@ table.collapse {
     background-size: cover;
     background-position: center center;
     background-color: $backdrop;
-}
-
-.background-mask-summer {
-    background-size: cover;
-    background-position: center center;
-    background-color: $backdropSummer;
 }
 
 .picture {

@@ -74,12 +74,16 @@ catalog:
   url: '/catalogo'
 
 promo:
-  title: 'ReBaJaS'
+  title: 'ReBaJaS VeRaNo'
   subtitle_1: 'Hasta el'
   subtitle_2: '50'
   subtitle_3: '%'
   subtitle_4: 'dto.'
   advice: 'Excepto artículos de continuidad y nueva colección'
+
+outlet:
+  title: 'OUTLET'
+  subtitle: 'Infórmate sobre nuestros artículos rebajados'
 
 birthday:
   title: '¡ Estamos de Segundo Aniversario !'

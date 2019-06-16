@@ -23,11 +23,20 @@
                     <a href="{{ site.baseurl }}{{site.catalog.url}}">{{site.catalog.title_tab}}</a>
                 </li>
                 <!-- Sections -->
-                <li {% if current == 'communionboy' %} class="active" {% endif %}>
-                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.communionboy.url}}">{{site.communionboy.title}}</a>
+                <li {% if current == 'girl' %} class="active" {% endif %}>
+                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.girl.url}}">{{site.girl.title}}</a>
+                </li>
+                <li {% if current == 'boy' %} class="active" {% endif %}>
+                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.boy.url}}">{{site.boy.title}}</a>
+                </li>
+                <li {% if current == 'swimwear' %} class="active" {% endif %}>
+                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.swimwear.url}}">{{site.swimwear.title}}</a>
                 </li>
                 <li {% if current == 'communiongirl' %} class="active" {% endif %}>
                     <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.communiongirl.url}}">{{site.communiongirl.title}}</a>
+                </li>
+                <li {% if current == 'communionboy' %} class="active" {% endif %}>
+                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.communionboy.url}}">{{site.communionboy.title}}</a>
                 </li>
                 <li {% if current == 'wedding' %} class="active" {% endif %}>
                     <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.wedding.url}}">{{site.wedding.title}}</a>
@@ -50,20 +59,11 @@
                 <li {% if current == 'christening' %} class="active" {% endif %}>
                     <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.christening.url}}">{{site.christening.title}}</a>
                 </li>
-                <li {% if current == 'boy' %} class="active" {% endif %}>
-                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.boy.url}}">{{site.boy.title}}</a>
-                </li>
-                <li {% if current == 'girl' %} class="active" {% endif %}>
-                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.girl.url}}">{{site.girl.title}}</a>
-                </li>
                 <li {% if current == 'footwear' %} class="active" {% endif %}>
                     <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.footwear.url}}">{{site.footwear.title}}</a>
                 </li>
                 <li {% if current == 'pajamas' %} class="active" {% endif %}>
                     <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.pajamas.url}}">{{site.pajamas.title}}</a>
-                </li>
-                <li {% if current == 'swimwear' %} class="active" {% endif %}>
-                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.swimwear.url}}">{{site.swimwear.title}}</a>
                 </li>
             </ul>
         </div>

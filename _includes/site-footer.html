@@ -1,15 +1,31 @@
 <footer class="blue-grey darken-4">
     <div class="container">
         <br>
-        <div class="row flex-row">
-            <a class="flex" href="https://www.facebook.com/elalmacendemamacarlota/" target="_blank">
+        <div class="row flex-row center hide-on-med-and-up">
+            <a class="flex instagram" href="https://www.instagram.com/mamacarlota_madrid/" target="_blank">
+                <img src="/images/instagram.png" alt="Instagram"/>
+            </a>
+            <a class="flex facebook" href="https://www.facebook.com/elalmacendemamacarlota/" target="_blank">
                 <img src="/images/facebook.png" alt="Facebook"/>
             </a>
-            <div class="col l3 m3 s12 left">
+            <div>
                 <div class="fb-like" data-href="https://www.facebook.com/elalmacendemamacarlota/" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
             </div>
-            <div class="col l9 m9 s12 right center-on-small-only">
-                <p class="white-text right">
+        </div>
+        <span class="row flex-row left hide-on-small-only">
+            <a class="flex instagram" href="https://www.instagram.com/mamacarlota_madrid/" target="_blank">
+                <img src="/images/instagram.png" alt="Instagram"/>
+            </a>
+            <a class="flex facebook" href="https://www.facebook.com/elalmacendemamacarlota/" target="_blank">
+                <img src="/images/facebook.png" alt="Facebook"/>
+            </a>
+            <div>
+                <div class="fb-like" data-href="https://www.facebook.com/elalmacendemamacarlota/" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+            </div>
+        </span>
+        <div class="row flex-row hide-on-med-and-up">
+            <div class="center center-on-small-only">
+                <p class="white-text center">
                     <a href="#terms" class="white-text modal-trigger waves-effect waves-light">{{site.terms.title}}</a>
                     <span class="hide-on-small-only">&nbsp;-&nbsp;</span>
                     <a class="white-text" href="{{site.baseurl}}/cookies" target="_blank">{{site.cookies.title}}</a>
@@ -30,6 +46,30 @@
                 </div>
             </div>
         </div>
+        <span class="row flex-row right hide-on-small-only">
+            <div class="center center-on-small-only">
+                <div class="white-text center">
+                    <a href="#terms" class="white-text modal-trigger waves-effect waves-light">{{site.terms.title}}</a>
+                    <span class="hide-on-small-only">&nbsp;-&nbsp;</span>
+                    <a class="white-text" href="{{site.baseurl}}/cookies" target="_blank">{{site.cookies.title}}</a>
+                </div>
+
+                <!-- Modal Structure -->
+                <div id="terms" class="modal">
+                    <div class="modal-content text-justify">
+                        <h5 class="teal-text">
+                            <span>{{site.terms.title}}</span>
+                            <a href="#!" class="modal-action modal-close">
+                                <i class="close material-icons right">close</i>
+                            </a>
+                        </h5>
+                        <div id="include-terms">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </span>
         <br>
+        <br class="hide-on-small-only">
     </div>
 </footer>
