@@ -73,6 +73,10 @@ a[href^="tel:"]:before {
     margin-right: 0.5em;
 }
 
+.open-hours--margin {
+    margin-left: 32px !important;
+}
+
 .christmas {
     @include display-flex;
     @include align-items(center);
