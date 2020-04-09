@@ -53,6 +53,7 @@ home:
   phone: '91 042 12 45'
   open: 'Lunes a Sábados de 10:00 - 14:00 y 17:00 - 20:30'
   open2: 'En Agosto los Sábados de 10:00 - 14:00'
+  close: 'CERRADO TEMPORALMENTE POR COVID-19'
   title_tab: 'INICIO'
   url: '/'
 
