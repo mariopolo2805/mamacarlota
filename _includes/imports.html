@@ -2,18 +2,18 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.4.4/showdown.min.js" charset="utf-8"></script>
 
-{% js footer-init %}
+<script type="text/javascript" src="js/footer-init.js"></script>
 <script type="text/javascript">
     footer.loadTerms('/terms.md')
 </script>
 
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-
-{% js materialize-init %}
+<script type="text/javascript" src="js/materialize-init.js"></script>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.1/cookieconsent.min.js"></script>
-{% js cookieConsent%}
+<script type="text/javascript" src="js/cookieConsent.js"></script>
+
 <script type="text/javascript">
     cookieConsent.initCookieConsent("{{site.baseurl}}/cookies");
 </script>

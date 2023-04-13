@@ -1,6 +1,9 @@
-@import './_scss/colors';
-@import './_scss/mixins';
-@import './_scss/typography';
+---
+---
+
+@import 'colors';
+@import 'mixins';
+@import 'typography';
 
 
 $backdrop: rgba(color("cyan", "darken-3"), 0.50);

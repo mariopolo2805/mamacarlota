@@ -1,11 +1,11 @@
 plugins:
-  - jekyll-assets
   - jekyll-sitemap
 
-exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'css', 'js', 'config.ru', 'vendor']
+exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'config.ru', 'vendor']
 
 sass:
   sass_dir: css/_scss
+  style:    compressed
 
 assets:
   compress:
@@ -33,7 +33,6 @@ maps:
     api_key: AIzaSyArBBEqgoRS4NIKBoFzXqM775z5Fw5Znu8
 
 # Texts
-
 main:
   title: 'MamaCarlota'
   titleTag: 'MamaCarlota'

@@ -22,7 +22,7 @@
     flex: $fg $fs $fb;
 }
 @mixin justify-content($value: flex-start) {
-     @if $value == flex-start{
+    @if $value == flex-start{
         -webkit-box-pack: start;
         -ms-flex-pack: start;
     }

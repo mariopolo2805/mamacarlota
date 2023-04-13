@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby "2.6.3"
+ruby "3.2.2"
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -9,15 +9,13 @@ ruby "2.6.3"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "bundler", "2.2.13"
-gem 'jekyll', '3.8.6'
+gem 'bundler', '2.4.12'
+gem 'jekyll', '4.3.2'
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem 'minima'
 
 gem 'uglifier'
-
-gem 'jekyll-assets', '2.3.2'
 
 gem 'jekyll-sitemap'
 
