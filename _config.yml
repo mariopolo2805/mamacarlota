@@ -27,11 +27,6 @@ assets:
 # Build settings
 markdown: kramdown
 
-# Maps
-maps:
-  google:
-    api_key: AIzaSyArBBEqgoRS4NIKBoFzXqM775z5Fw5Znu8
-
 # Texts
 main:
   title: 'MamaCarlota'
