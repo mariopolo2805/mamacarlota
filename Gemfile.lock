@@ -86,11 +86,11 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
-  x86_64-linux
   x86_64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
-  bundler (= 2.4.10)
+  bundler (= 2.4.22)
   jekyll (= 4.3.3)
   jekyll-sitemap
   minima
