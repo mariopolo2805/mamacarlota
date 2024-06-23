@@ -1,6 +1,12 @@
 {
   "version": 2,
   "builds": [
-    { "src": "config.ru", "use": "@vercel/ruby" }
+    {
+      "src": "config.ru",
+      "use": "@vercel/ruby",
+      "config": {
+        "ruby_version": "3.2.2"
+      }
+    }
   ]
 }
