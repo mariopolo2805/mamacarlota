@@ -1,7 +1,5 @@
 {
-  "builds": [{
-    "src": "Gemfile",
-    "use": "@vercel/ruby",
-    "config": { "bundleInstallCommand": "bundle install --verbose" }
-  }]
+  "engines": {
+    "ruby": "3.2.2"
+  }
 }
