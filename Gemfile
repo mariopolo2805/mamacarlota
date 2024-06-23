@@ -9,7 +9,7 @@ ruby "~> 3.2.2"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem 'bundler', '2.4.22'
+gem 'bundler', '2.5.14'
 gem 'jekyll', '4.3.3'
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
