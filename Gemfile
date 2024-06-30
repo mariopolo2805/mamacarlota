@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby "~> 3.2.0"
+ruby "~> 3.2.2"
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -20,4 +20,4 @@ gem 'uglifier'
 gem 'jekyll-sitemap'
 
 gem 'rack-contrib', '1.7.0'
-gem 'puma'
+gem 'puma', '6.2.1'
