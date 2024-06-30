@@ -87,7 +87,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (6.0.0)
-    puma (6.4.2)
+    puma (6.2.1)
       nio4r (~> 2.0)
     rack (1.6.13)
     rack-contrib (1.7.0)
@@ -187,7 +187,7 @@ DEPENDENCIES
   jekyll (= 4.3.3)
   jekyll-sitemap
   minima
-  puma
+  puma (= 6.2.1)
   rack-contrib (= 1.7.0)
   uglifier
 
