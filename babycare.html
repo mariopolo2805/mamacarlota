@@ -33,7 +33,7 @@ permalink: catalogo/canastilla-puericultura/
                         {% if image.path contains 'images/babycare' %}
                             <div class="card picture">
                                 <div class="card-image">
-                                    <img class="mamacarlota-img" src="{{ site.baseurl }}{{ image.path }}" alt="{{site.ref}}: {{forloop.index}}" onclick="openModal(this)">
+                                    <img class="mamacarlota-img" src="{{ image.path }}" alt="{{site.ref}}: {{forloop.index}}" onclick="openModal(this)">
                                 </div>
                             </div>
                             <div>{{site.ref}}: {{forloop.index}}</div>
