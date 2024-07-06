@@ -94,7 +94,7 @@ birthday:
 accessories:
   title: 'Accesorios'
   subtitle: 'Diademas, turbantes, lazos, gomas de pelo y mucho más.'
-  url: 'accesorios'
+  url: '/accesorios'
   image: '/images/accessories/0000.jpg'
 
 babyboy:
