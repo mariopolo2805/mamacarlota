@@ -1,13 +1,12 @@
 $(document).ready(function() {
     $('.slider').slider();
     $('.parallax').parallax();
-    $('select').material_select();
-    $('.button-collapse').sideNav();
+    $('.sidenav').sidenav();
     $('.modal').modal({
       inDuration: 300, // Transition in duration
       outDuration: 200, // Transition out duration
-    }
-  );
+    });
+    $('.collapsible').collapsible();
 });
 
 // Custom modal to fix .materialboxed problems

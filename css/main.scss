@@ -94,7 +94,7 @@ a[href^="tel:"]:before {
     margin-right: 0.5em;
 }
 
-.side-nav {
+.sidenav {
     a.subdirectory {
         @include display-flex;
         @include align-items(center);
@@ -212,6 +212,10 @@ table.collapse {
     @include flex-direction(row);
     @include justify-content(center);
     @include align-items(center);
+
+    &.flex-start {
+        @include justify-content(flex-start);
+    }
 
     &.space-between {
         @include justify-content(space-between);

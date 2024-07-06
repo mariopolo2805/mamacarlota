@@ -1,74 +1,37 @@
 <footer class="blue-grey darken-4">
-    <div class="container">
+    <div class="container valign-wrapper">
         <br>
-        <div class="row flex-row center hide-on-med-and-up">
+        <div class="flex-row flex-start flex-grow center-on-small-only">
             <a class="flex instagram" href="https://www.instagram.com/mamacarlota_madrid/" target="_blank">
-                <img src="/images/instagram.png" alt="Instagram"/>
+                <img src="/images/instagram.png" alt="Instagram" />
             </a>
             <a class="flex facebook" href="https://www.facebook.com/elalmacendemamacarlota/" target="_blank">
-                <img src="/images/facebook.png" alt="Facebook"/>
+                <img src="/images/facebook.png" alt="Facebook" />
             </a>
-            <div>
-                <div class="fb-like" data-href="https://www.facebook.com/elalmacendemamacarlota/" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+            <div class="hide-on-small-only">
+                <div class="fb-like" data-href="https://www.facebook.com/elalmacendemamacarlota/"
+                    data-layout="button_count" data-action="like" data-size="large" data-show-faces="true"
+                    data-share="true"></div>
             </div>
         </div>
-        <span class="row flex-row left hide-on-small-only">
-            <a class="flex instagram" href="https://www.instagram.com/mamacarlota_madrid/" target="_blank">
-                <img src="/images/instagram.png" alt="Instagram"/>
-            </a>
-            <a class="flex facebook" href="https://www.facebook.com/elalmacendemamacarlota/" target="_blank">
-                <img src="/images/facebook.png" alt="Facebook"/>
-            </a>
-            <div>
-                <div class="fb-like" data-href="https://www.facebook.com/elalmacendemamacarlota/" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
-            </div>
-        </span>
-        <div class="row flex-row hide-on-med-and-up">
-            <div class="center center-on-small-only">
-                <p class="white-text center">
-                    <a href="#terms" class="white-text modal-trigger waves-effect waves-light">{{site.terms.title}}</a>
-                    <span class="hide-on-small-only">&nbsp;-&nbsp;</span>
-                    <a class="white-text" href="{{site.baseurl}}/cookies" target="_blank">{{site.cookies.title}}</a>
-                </p>
-
-                <!-- Modal Structure -->
-                <div id="terms" class="modal">
-                    <div class="modal-content text-justify">
-                        <h5 class="teal-text">
-                            <span>{{site.terms.title}}</span>
-                            <a href="#!" class="modal-action modal-close">
-                                <i class="close material-icons right">close</i>
-                            </a>
-                        </h5>
-                        <div id="include-terms">
-                        </div>
-                    </div>
+        <p class="flex-row text-right white-text center-on-small-only">
+            <a href="#terms" class="white-text modal-trigger waves-effect waves-light">{{site.terms.title}}</a>
+            <span>&nbsp;-&nbsp;</span>
+            <a class="white-text" href="/cookies" target="_blank">{{site.cookies.title}}</a>
+        </p>
+        <!-- Modal Structure -->
+        <div id="terms" class="modal">
+            <div class="modal-content text-justify">
+                <h5 class="teal-text">
+                    <span>{{site.terms.title}}</span>
+                    <a href="#!" class="modal-action modal-close">
+                        <i class="close material-icons right">close</i>
+                    </a>
+                </h5>
+                <div id="include-terms">
                 </div>
             </div>
         </div>
-        <span class="row flex-row right hide-on-small-only">
-            <div class="center center-on-small-only">
-                <div class="white-text center">
-                    <a href="#terms" class="white-text modal-trigger waves-effect waves-light">{{site.terms.title}}</a>
-                    <span class="hide-on-small-only">&nbsp;-&nbsp;</span>
-                    <a class="white-text" href="/cookies" target="_blank">{{site.cookies.title}}</a>
-                </div>
-
-                <!-- Modal Structure -->
-                <div id="terms" class="modal">
-                    <div class="modal-content text-justify">
-                        <h5 class="teal-text">
-                            <span>{{site.terms.title}}</span>
-                            <a href="#!" class="modal-action modal-close">
-                                <i class="close material-icons right">close</i>
-                            </a>
-                        </h5>
-                        <div id="include-terms">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </span>
         <br>
         <br class="hide-on-small-only">
     </div>

@@ -1,71 +1,82 @@
 <div class="navbar-fixed">
-    <nav class="white">
-        <div class="nav-wrapper container">
-            <a href="{{site.baseurl}}" class="hide-on-large-only"><img src="/images/logo-text.png" class="brand-logo mobile" alt="Mamacarlota logo"></a>
-            <a href="{{site.baseurl}}" class="hide-on-med-and-down"><img src="/images/logo-text.png" class="brand-logo" alt="Mamacarlota logo"></a>
-            {% assign current = page.id | downcase %}
-            <ul class="right hide-on-med-and-down black-text">
-                <li {% if current == 'home' %} class="active" {% endif %}>
-                    <a href="{{site.baseurl}}">{{site.home.title_tab}}</a>
-                </li>
-                <li {% if current == 'catalog' %} class="active" {% endif %}>
-                    <a href="{{ site.baseurl }}{{site.catalog.url}}">{{site.catalog.title_tab}}</a>
-                </li>
-            </ul>
-            <a href="#" data-activates="mobile-menu" class="button-collapse">
-                <i class="material-icons">menu</i>
-            </a>
-            <ul class="side-nav" id="mobile-menu">
-                <li {% if current == 'home' %} class="active" {% endif %}>
-                    <a href="{{site.baseurl}}/">{{site.home.title_tab}}</a>
-                </li>
-                <li {% if current == 'catalog' %} class="active" {% endif %}>
-                    <a href="{{ site.baseurl }}{{site.catalog.url}}">{{site.catalog.title_tab}}</a>
-                </li>
-                <!-- Sections -->
-                <li {% if current == 'babygirl' %} class="active" {% endif %}>
-                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.babygirl.url}}">{{site.babygirl.title}}</a>
-                </li>
-                <li {% if current == 'babyboy' %} class="active" {% endif %}>
-                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.babyboy.url}}">{{site.babyboy.title}}</a>
-                </li>
-                <li {% if current == 'babycare' %} class="active" {% endif %}>
-                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.babycare.url}}">{{site.babycare.title}}</a>
-                </li>
-                <li {% if current == 'christening' %} class="active" {% endif %}>
-                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.christening.url}}">{{site.christening.title}}</a>
-                </li>
-                <li {% if current == 'communiongirl' %} class="active" {% endif %}>
-                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.communiongirl.url}}">{{site.communiongirl.title}}</a>
-                </li>
-                <li {% if current == 'communionboy' %} class="active" {% endif %}>
-                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.communionboy.url}}">{{site.communionboy.title}}</a>
-                </li>
-                <li {% if current == 'wedding' %} class="active" {% endif %}>
-                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.wedding.url}}">{{site.wedding.title}}</a>
-                </li>
-                <li {% if current == 'girl' %} class="active" {% endif %}>
-                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.girl.url}}">{{site.girl.title}}</a>
-                </li>
-                <li {% if current == 'boy' %} class="active" {% endif %}>
-                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.boy.url}}">{{site.boy.title}}</a>
-                </li>
-                <li {% if current == 'gifts' %} class="active" {% endif %}>
-                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.gifts.url}}">{{site.gifts.title}}</a>
-                </li>
-                <li {% if current == 'accessories' %} class="active" {% endif %}>
-                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.accessories.url}}">{{site.accessories.title}}</a>
-                </li>
-                <li {% if current == 'footwear' %} class="active" {% endif %}>
-                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.footwear.url}}">{{site.footwear.title}}</a>
-                </li>
-                <li {% if current == 'pajamas' %} class="active" {% endif %}>
-                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.pajamas.url}}">{{site.pajamas.title}}</a>
-                </li>
-                <li {% if current == 'swimwear' %} class="active" {% endif %}>
-                    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.swimwear.url}}">{{site.swimwear.title}}</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+  <nav class="white">
+    <div class="nav-wrapper container">
+      <a href="{{site.baseurl}}" class="hide-on-large-only"><img src="/images/logo-text.png" class="brand-logo mobile"
+          alt="Mamacarlota logo"></a>
+      <a href="{{site.baseurl}}" class="hide-on-med-and-down"><img src="/images/logo-text.png" class="brand-logo"
+          alt="Mamacarlota logo"></a>
+      <a href="{{site.baseurl}}" data-target="mobile-demo" class="sidenav-trigger black-text">
+        <i class="material-icons">menu</i>
+      </a>
+      {% assign current = page.id | downcase %}
+      <ul class="right hide-on-med-and-down black-text">
+        <li {% if current=='home' %} class="active" {% endif %}>
+          <a href="{{site.baseurl}}">{{site.home.title_tab}}</a>
+        </li>
+        <li {% if current=='catalog' %} class="active" {% endif %}>
+          <a href="{{ site.baseurl }}{{site.catalog.url}}">{{site.catalog.title_tab}}</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </div>
+
+<ul class="sidenav" id="mobile-demo">
+  <li {% if current=='home' %} class="active" {% endif %}>
+    <a href="{{site.baseurl}}">{{site.home.title_tab}}</a>
+  </li>
+  <li {% if current=='catalog' %} class="active" {% endif %}>
+    <a href="{{ site.baseurl }}{{site.catalog.url}}">{{site.catalog.title_tab}}</a>
+  </li>
+  <!-- Sections -->
+  <li {% if current=='babygirl' %} class="active" {% endif %}>
+    <a class="subdirectory"
+      href="{{ site.baseurl }}{{site.catalog.url}}{{site.babygirl.url}}">{{site.babygirl.title}}</a>
+  </li>
+  <li {% if current=='babyboy' %} class="active" {% endif %}>
+    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.babyboy.url}}">{{site.babyboy.title}}</a>
+  </li>
+  <li {% if current=='babycare' %} class="active" {% endif %}>
+    <a class="subdirectory"
+      href="{{ site.baseurl }}{{site.catalog.url}}{{site.babycare.url}}">{{site.babycare.title}}</a>
+  </li>
+  <li {% if current=='christening' %} class="active" {% endif %}>
+    <a class="subdirectory"
+      href="{{ site.baseurl }}{{site.catalog.url}}{{site.christening.url}}">{{site.christening.title}}</a>
+  </li>
+  <li {% if current=='communiongirl' %} class="active" {% endif %}>
+    <a class="subdirectory"
+      href="{{ site.baseurl }}{{site.catalog.url}}{{site.communiongirl.url}}">{{site.communiongirl.title}}</a>
+  </li>
+  <li {% if current=='communionboy' %} class="active" {% endif %}>
+    <a class="subdirectory"
+      href="{{ site.baseurl }}{{site.catalog.url}}{{site.communionboy.url}}">{{site.communionboy.title}}</a>
+  </li>
+  <li {% if current=='wedding' %} class="active" {% endif %}>
+    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.wedding.url}}">{{site.wedding.title}}</a>
+  </li>
+  <li {% if current=='girl' %} class="active" {% endif %}>
+    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.girl.url}}">{{site.girl.title}}</a>
+  </li>
+  <li {% if current=='boy' %} class="active" {% endif %}>
+    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.boy.url}}">{{site.boy.title}}</a>
+  </li>
+  <li {% if current=='gifts' %} class="active" {% endif %}>
+    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.gifts.url}}">{{site.gifts.title}}</a>
+  </li>
+  <li {% if current=='accessories' %} class="active" {% endif %}>
+    <a class="subdirectory"
+      href="{{ site.baseurl }}{{site.catalog.url}}{{site.accessories.url}}">{{site.accessories.title}}</a>
+  </li>
+  <li {% if current=='footwear' %} class="active" {% endif %}>
+    <a class="subdirectory"
+      href="{{ site.baseurl }}{{site.catalog.url}}{{site.footwear.url}}">{{site.footwear.title}}</a>
+  </li>
+  <li {% if current=='pajamas' %} class="active" {% endif %}>
+    <a class="subdirectory" href="{{ site.baseurl }}{{site.catalog.url}}{{site.pajamas.url}}">{{site.pajamas.title}}</a>
+  </li>
+  <li {% if current=='swimwear' %} class="active" {% endif %}>
+    <a class="subdirectory"
+      href="{{ site.baseurl }}{{site.catalog.url}}{{site.swimwear.url}}">{{site.swimwear.title}}</a>
+  </li>
+</ul>
