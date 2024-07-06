@@ -71,7 +71,7 @@ catalog:
   subtitle: 'En nuestro catálogo encontrarás la más amplia variedad.'
 
   title_tab: 'CATÁLOGO'
-  url: '/catalogo'
+  url: 'catalogo'
 
 promo:
   title: 'ReBaJaS VeRaNo'
@@ -94,7 +94,7 @@ birthday:
 accessories:
   title: 'Accesorios'
   subtitle: 'Diademas, turbantes, lazos, gomas de pelo y mucho más.'
-  url: '/accesorios'
+  url: 'accesorios'
   image: '/images/accessories/0000.jpg'
 
 babyboy:
