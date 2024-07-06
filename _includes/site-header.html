@@ -1,12 +1,12 @@
 <div class="navbar-fixed">
     <nav class="white">
         <div class="nav-wrapper container">
-            <a href="{{site.baseurl}}/" class="hide-on-large-only"><img src="/images/logo-text.png" class="brand-logo mobile" alt="Mamacarlota logo"></a>
-            <a href="{{site.baseurl}}/" class="hide-on-med-and-down"><img src="/images/logo-text.png" class="brand-logo" alt="Mamacarlota logo"></a>
+            <a href="{{site.baseurl}}" class="hide-on-large-only"><img src="/images/logo-text.png" class="brand-logo mobile" alt="Mamacarlota logo"></a>
+            <a href="{{site.baseurl}}" class="hide-on-med-and-down"><img src="/images/logo-text.png" class="brand-logo" alt="Mamacarlota logo"></a>
             {% assign current = page.id | downcase %}
             <ul class="right hide-on-med-and-down black-text">
                 <li {% if current == 'home' %} class="active" {% endif %}>
-                    <a href="{{site.baseurl}}/">{{site.home.title_tab}}</a>
+                    <a href="{{site.baseurl}}">{{site.home.title_tab}}</a>
                 </li>
                 <li {% if current == 'catalog' %} class="active" {% endif %}>
                     <a href="{{ site.baseurl }}{{site.catalog.url}}">{{site.catalog.title_tab}}</a>

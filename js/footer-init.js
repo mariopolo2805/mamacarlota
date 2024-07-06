@@ -8,6 +8,7 @@ var footer = function () {
             type: 'get',
             dataType: 'html',
             success: function (data) {
+                debugger
                 $('#include-terms').append(converter.makeHtml(data));
             }
         });
