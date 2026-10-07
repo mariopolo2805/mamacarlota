@@ -1,7 +1,7 @@
 plugins:
   - jekyll-sitemap
 
-exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'config.ru', 'vendor']
+exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'vendor']
 
 sass:
   sass_dir: css/_scss
