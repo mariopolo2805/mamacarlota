@@ -19,5 +19,3 @@ gem 'uglifier'
 
 gem 'jekyll-sitemap'
 
-gem 'rack-contrib', '1.7.0'
-gem 'puma', '6.2.1'
